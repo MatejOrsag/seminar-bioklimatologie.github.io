@@ -1,18 +1,11 @@
-# Zadání seminární práce
-Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data Českého hydrometeorologického ústavu (ČHMÚ). Data jsou k dispozici v denním či měsíčním časovém kroku.
-
-Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici [zde](https://www.climrisk.cz/mapa-cr/).
-
 # Základní informace
-- Můj kontaktní email je matej.orsag@mendelu.cz, najdete mě v kanceláři N5060 po předchozí domluvě
-- Kontakt pro seminární práci z fenologie je Ing. Petra Dížková (dizkova.p@czechglobe.cz)
-- Na každé cvičení potřebuju notebook, MS Excel s dokončenou prací z minulého cvičení
+- Můj kontaktní email je matej.orsag@mendelu.cz, najdete mě v kanceláři N5060 (snažme se ale maximum vyřešit osobně, ve cvičení)
+- Na každé cvičení potřebuju notebook, MS Excel s __dokončenou prací z minulého cvičení__
 
 ## Jak dostanu zápočet
-- Splním 3 úkoly:
-  - Seminární práce z fenologie (MUSÍM SE REGISTROVAT [TADY](http://www.fenofaze.cz/extranet/cs/sign/up-student/))
+- Splním 2 úkoly:
   - Seminární práce z klimatologie
-  - Docházka (max 2 absence)   
+  - Docházka (můžu mít max. 2 absence, přičemž moje nulová aktivita ve cvičení může být považována za absenci, přestože nacvičení fyzicky jsem)   
 
 ## Co potřebuji pro práci ve cvičení
 - Wi-Fi - ideálně EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
@@ -22,6 +15,11 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Ptám se na cvičení
   - Ptám se spolužáků
   - Ptám se Googlu nebo AI
+
+# Zadání seminární práce
+Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data Českého hydrometeorologického ústavu (ČHMÚ). Data jsou k dispozici v denním či měsíčním časovém kroku.
+
+Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici [zde](https://www.climrisk.cz/mapa-cr/).
 
 <details markdown="1">
 <summary> Cvičení 01 </summary>
@@ -38,7 +36,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup získání dat ##
 
-1. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_AgroMeteo.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
+1. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_Bioklimatologie.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
 
 2. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
      - 2.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
