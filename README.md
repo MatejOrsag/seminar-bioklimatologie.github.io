@@ -42,8 +42,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.1 V legendě vyberu stanice podle legendy (zkontroluju, jestli je zakliknuté "T" a "SRA", jako teplota a hledám stanici kde se obě veličiny měří = překrývá se v jejich ikonce čtvereček (teplota) a puntík (srážky)).
      - 2.2 Každý student ve skupině si vybere jinou stanici
      - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
-     - 2.4 nevybírám si následující stanice (nedostatečná data)
-          - _Žamberk_, _Třebařov_, _Ústí nad Orlicí_, _Jičín_, _Libice nad Doubravou_ 
+     - 2.4 nevybírám si následující stanice (nedostatečná data - krátké časové řady)
+          - _Žamberk_, _Třebařov_, _Ústí nad Orlicí_, _Jičín_, _Libice nad Doubravou_, _Šumperk_, _Kobylí_, _Hubenov_, _Praděd_, _Jeseník_, _Třeboň_, _Lednice_, _Protivanov_, _Třinec_, _Strážnice_
 
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
