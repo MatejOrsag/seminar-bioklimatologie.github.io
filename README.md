@@ -24,7 +24,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 01 </summary>
 
-# Cvičení 01 (06.10.2025) - Zadání seminární práce z klimatologie, získání dat
+# Cvičení 01 (týden od 06.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
 - __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro mojí vybranou stanici__
@@ -47,7 +47,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
-     - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice
+     - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice (__CTRL+F__)
      - 3.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
      - 3.4 Poznačím si interní kód stanice (sloupec A "WSI")
      - 3.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
