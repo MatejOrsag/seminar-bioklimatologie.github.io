@@ -24,7 +24,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Ptám se Googlu nebo AI
 
 <details markdown="1">
-<summary> Cvičení 02 </summary>
+<summary> Cvičení 01 </summary>
 
 # Cvičení 01 (06.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
