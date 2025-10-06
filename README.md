@@ -4,7 +4,7 @@ Cílem seminární práce je osvojit si základy práce s klimatologickými čas
 Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici zde.
 
 # Základní informace
-- Můj kontaktní email je monika.hlavsova@mendelu.cz, najdete mě v kanceláři N5064 po předchozí domluvě
+- Můj kontaktní email je matej.orsag@mendelu.cz, najdete mě v kanceláři N5060 po předchozí domluvě
 - Kontakt pro seminární práci z fenologie je Ing. Petra Dížková (dizkova.p@czechglobe.cz)
 - Na každé cvičení potřebuju notebook, MS Excel s dokončenou prací z minulého cvičení
 
@@ -26,7 +26,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 02 </summary>
 
-# Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat
+# Cvičení 01 (06.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
 - __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro mojí vybranou stanici__
@@ -86,53 +86,53 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 </details>
 
 <details markdown="1">
-<summary> Cvičení 03 </summary>
-# Cvičení 03 (09.10.2025) - Radiační bilance
+<summary> Cvičení 02 </summary>
+# Cvičení 02 (týden od 13.10.2025) - Radiační bilance
 </details>
   
 <details markdown="1">
-<summary> Cvičení 04 </summary>
-# Cvičení 04 (16.10.2025) - Energetická bilance
+<summary> Cvičení 03 </summary>
+# Cvičení 03 (týden od 20.10.2025) - Energetická bilance
 </details>
   
 <details markdown="1"> 
+<summary> Cvičení 04 </summary>
+# Cvičení 04 (týden od 27.10.2025, úterý 28.10. státní svátek) - Změna klimatu
+</details>
+  
+<details markdown="1">
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (23.10.2025) - Změna klimatu
+# Cvičení 05 (týden od 03.11.2025) - Teplota vzduchu
 </details>
   
 <details markdown="1">
 <summary> Cvičení 06 </summary>
-# Cvičení 06 (30.10.2025) - Teplota vzduchu
+# Cvičení 06 (týden od 10.11.2025) - Charakteristické dny
 </details>
   
 <details markdown="1">
 <summary> Cvičení 07 </summary>
-# Cvičení 07 (06.11.2025) - Charakteristické dny
+# Cvičení 07 (týden od 18.11.2025, pondělí 17.11. státní svátek) - Vlhkost vzduchu a výpar
 </details>
   
 <details markdown="1">
 <summary> Cvičení 08 </summary>
-# Cvičení 08 (13.11.2025) - Vlhkost vzduchu a výpar
+# Cvičení 08 (24.11.2025) - Srážky
 </details>
   
 <details markdown="1">
 <summary> Cvičení 09 </summary>
-# Cvičení 09 (20.11.2025) - Srážky
+# Cvičení 09 (01.12.2025) - Sucho
 </details>
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (27.11.2025) - Sucho
+# Cvičení 10 (08.12.2025) - Tlak a vítr
 </details>
   
 <details markdown="1">
 <summary> Cvičení 11 </summary>
-# Cvičení 11 (04.12.2025) - Tlak a vítr
-</details>
-  
-<details markdown="1">
-<summary> Cvičení 12 </summary>
-# Cvičení 12 (11.12.2025) - Kontrola seminárních prací a zápočty
+# Cvičení 11 (15.12.2025) - Kontrola seminárních prací a zápočty
 </details>
 
 
