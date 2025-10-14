@@ -106,7 +106,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
  - 2.3 U výběru __Sky type__ volím __Both cloud-free and actual weather conditions__
  - 2.4 Zadám souřadnice mojí stanice (pokud jsem si minule neopsal souřadnice ze souboru meta1.csv, můžu tak učinit znovu, anebo si je najdu pomocí mapy.com). Na mapě mohu zkontrolovat že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice. Pozn. pokud mě to zaujalo, mohu si analogicky stáhnout data radiace pro libovolný bod v rámci Evropy).
  - 2.5 Zadám nadmořskou výšku mojí stanice
- - 2.6 Jako rozpětí datumů zvolím __2004-01-01 až 2024-12-31__ (k dispozici jsou data od r. 2004 do předvčerejška)
+ - 2.6 Jako rozpětí datumů zvolím __2004-02-01 až 2024-12-31__ (k dispozici jsou data od února r. 2004 do předvčerejška)
  - 2.7 U výběru __Time step__ volím __1 month__
  - 2.8 U výběru __Time reference__ volím __True solar time__
  - 2.9 U výběru __Data format__ volím __CSV__
