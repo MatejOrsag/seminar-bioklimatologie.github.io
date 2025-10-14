@@ -98,7 +98,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím nový list a pojmenuji ho TeplotaRadiace.
  - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data (CTRL+C, CTRL+V) ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu s daty pro teplotu.
- - 1.2 Nechám si v listu pouze časovou řadu leden 2004 až prosinec 2024 (ve službě Copernicus jsou data až od r. 2004) a zbytek mohu z tohoto listu smazat (__pozor, nesmažte si hodnoty z originálních dat teploty, které máte na listu _Teplota___).
+ - 1.2 Nechám si v listu pouze časovou řadu únor 2004 až prosinec 2024 (ve službě Copernicus jsou data až od února r. 2004) a zbytek mohu z tohoto listu smazat (__pozor, nesmažte si hodnoty z originálních dat teploty, které máte na listu _Teplota___).
 
 2. Stahuji data pro solární radiaci ze služby Copernicus
  - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT MAILEM, díky čemuž budu moci službu využívat kdykoli v budoucnu)
