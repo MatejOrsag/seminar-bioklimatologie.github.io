@@ -130,7 +130,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 03 </summary>
-  
+
 # Cvičení 03 (týden od 20.10.2025) - Srovnání průměrných měsíčních teplot za dvě normálová období
   - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích.
 - __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnáme data průměrných teplot vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
@@ -157,14 +157,17 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
  - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
 
 ## Otázky k interpretaci dat a zamyšlení ##
-1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími
-2. Ve kterých měsících nového normálového období 1991-2020 se teplota oproti původnímu normál. období 1961-2020 zvýšila nejvíce a ve kterých nejméně?
-3. Jaké  dopady v krajině mohou tyto změny mít v jednotlivých ročních obdobích?
-4. Jak se liší roční teploty ve dvou srovnávaných obdobích
+1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími?
+2. Ve kterých měsících nového normálového období 1991-2020 se teplota oproti původnímu normálovému období 1961-2020 zvýšila nejvíce a ve kterých nejméně, nebo dokonce snížila?
+3. Dochází k rovnoměrnému oteplení během roku, nebo je zřetelnější v určitých ročních obdobích?
+4. Jsou některé měsíce, kde došlo dokonce k ochlazení?
+5. Jaké dopady v krajině mohou tyto změny mít v jednotlivých ročních obdobích? (např. může mít nárůst teplot v zimě dopad na vegetační období, přezimování hmyzu či fenologii rostlin? Může oteplení jarních měsíců ovlivnit načasování rašení, kvetení či pěstování plodin? Co může znamenat vyšší letní teplota pro vodní bilanci, evapotranspiraci a sucho? Jak by tyto teplotní změny mohly ovlivnit bioklimatické indexy (např. sumy efektivních teplot)?
+
 </details>
   
 <details markdown="1"> 
 <summary> Cvičení 04 </summary>
+
 # Cvičení 04 (týden od 27.10.2025, úterý 28.10. státní svátek) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu www.climRisk.cz
 - Cílem cvičení je (pomocí dat z climrisk.cz) analyzovat předpokládaný budoucí vývoj klimatu pro naši stanici a porovnat jej s daty, získanými z historických (1961-2020) měření z ČHMÚ (stáhli jsme si v prvním cvičení).
 - __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
