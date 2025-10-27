@@ -181,12 +181,12 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 1.0 Vytvořím si dva nové listy a pojmenuji je __KlimatickyGradient__ a __BudouciKlima__
 
 2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
-     - 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
+     - 2.0 Otevřu si Tabulky podnebí buď [stáhnu pdf (50MB) ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf),  anebo si vezmu papírovou kopii.
      - 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami
      - 2.2 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__
      - 2.3 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
-     - 2.4 V MS Excel vytvořím bodový graf z dat teploty a nadmořské výšky
-     - 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+     - 2.4 V MS Excel vytvořím bodový graf z dat teploty (svislá osa) a nadmořské výšky (vodorovná osa).
+     - 2.5 Zobrazím spojnici trendu včetně funkce (klik pravým na bod v grafu a z nabídky vybrat "Přidat spojnici trendu", v pravo v nabídce zaškrtnu "Lineární" a dole "Zobrazit rovnici v grafu") a s pomocí zobrazené funkce ověřím míru teplotního gradientu v okolí mojí stanice.
      - 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
   
 3. Získání ročních dat pro všechny časové agregace z portálu ClimRisk
