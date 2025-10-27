@@ -173,12 +173,50 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
   
 ## DŮLEŽITÉ ODKAZY ##
+- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
 - Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
-2. Získání dat z portálu ClimRisk
-3. Srovnání staničních dat a budoucích scénářů vývoje klimatu pro teplotu vzduchu a srážky
+     - 1.0 Vytvořím si dva nové listy a pojmenuji je __KlimatickyGradient__ a __BudouciKlima__
+
+2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
+     - 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
+     - 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami
+     - 2.2 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__
+     - 2.3 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
+     - 2.4 V MS Excel vytvořím bodový graf z dat teploty a nadmořské výšky
+     - 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+     - 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
+  
+3. Získání ročních dat pro všechny časové agregace z portálu ClimRisk
+     - 3.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+     - 3.2 Vyberu __Česká Republika__
+     - 3.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+     - 3.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+     - 3.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+     - 3.6 V nabídce Agregace vyberte pouze rok
+     - 3.7 V nabídce Klimatická projekce vyberte __všechny dostupná období__
+     - 3.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+     - 3.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+     - 3.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+  
+4. Práce se staženými daty a tvorba grafů
+     - 4.1 Pro roční hodnoty časových agregací scénářů budoucího vývoje klimatu vytvořím spojnicový graf průběhu včetně mediánu a všech percentilů
+  
+5. Bonus: Získání měsíčních dat z portálu ClimRisk
+     - 5.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+     - 5.2 Vyberu __Česká Republika__
+     - 5.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+     - 5.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+     - 5.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+     - 5.6 V nabídce Agregace vyberte všechny měsíce (leden-prosinec) a také rok
+     - 5.7 V nabídce Klimatická projekce vyberte období __2035 (2021-2050)__ a __2065 (2051-2080)__
+     - 5.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+     - 5.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+     - 5.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+     - 5.11 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období 2035 (2021-2050)__ a __2065 (2051-2080)
+
 </details>
   
 <details markdown="1">
