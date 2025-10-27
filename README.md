@@ -215,7 +215,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 5.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
      - 5.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
      - 5.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
-     - 5.11 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období 2035 (2021-2050)__ a __2065 (2051-2080)
+     - 5.11 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období __2035 (2021-2050)__ a __2065 (2051-2080)__
 
 </details>
   
