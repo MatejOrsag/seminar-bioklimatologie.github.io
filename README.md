@@ -221,7 +221,44 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (týden od 03.11.2025) - Teplota vzduchu
+# Cvičení 05 (týden od 03.11.2025) - Analýza měsíčních teplot vzduchu jejich trendů po dekádách (1961–2020)
+  
+Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíční teplota za jednotlivé dekády mezi lety 1961–2020 a vytvořit graf, který ukáže:
+-průměrnou teplotu za každou dekádu,
+-a trend (změnu) mezi dekádami.
+
+## Postup práce ve cvičení ##
+1. Příprava pracovního Excelu
+     - 1.0 Vytvořím si nový list a pojmenuji ho __TeplotyDekadyTrendy__
+     - 1.1 Z prvního listu svého pracovního excelu nakopíruju do nového listu TeplotyDekadyTrendy vedle sebe do sloupce A Rok a do sloupce B Měsíční teploty vzduchu 1961-2020.
+2. Vytvoř pomocný sloupec „Dekáda“
+     - 2.1 Do sloupce C napíšu do buňky C2 vzorec: =ROUNDDOWN(A2/10,0)*10  Tento vzorec zaokrouhlí rok na začátek dekády (např. 1961–1969 → 1960, 1970–1979 → 1970).
+     - 2.2 Zkopíruju vzorec až dolů tak, že buňku se vzorcem chytnu levým dlouhým klikem za pravý dolní roh buňky a stáhnu=zkopíruju vzorec dolů až na konec dat.
+3. Spočítám průměrnou teplotu za dekádu
+   - 3.1 Označím data (sloupce „Dekáda“ a „Teplota“) a na kartě Vložení → Kontingenční graf a kontingenční tabulka. Umístím ji na nový list.
+   - 3.2 V nabídce Pole kontingenčního grafu přeneseme (drag and drop) položku Dekáda do boxu Osa kategorie a stejným způsobem přeneseme položku Teplota do boxu Hodnoty
+   - 3.3 U boxu Hodnoty změníme v nabídce Nastavení polí hodnot… funkci na Průměr a potvrdíme
+   - 3.4 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průměrné teploty v jednotlivých dekádách atd.).
+   - 3.5 Hodnoty z vygenerované kontingenční tabulky označím a pomocí pravý klik a "Vložit jen hodnoty" je nakopíruju na volné místo na listu. 
+4. Vypočítej změnu teploty mezi dekádami
+   - 4.1 Vedle zkopírované tabulky se sloupcem Dekády a průměrnou teplotou vzduchu za dekádu napiš vzorec: =B3-B2 (kde B2 a B3 jsou průměrné teploty dvou po sobě jdoucích dekád). Tím zjistíš, o kolik °C se průměrná teplota zvýšila nebo snížila za 10 let.
+   - 4.2 Zkopíruj vzorec dolů (viz bod 2.2)
+   - 4.3 Do nového sloupce přidej název „Změna (°C / dekáda)“
+5. Vytvoř spojnicový graf s daty měsíčních teplot pro každou dekádu zvlášť.
+   - 5.1 Označ v prvním listu celý sloupec "Rok" a v záložce Data zapni pro tento sloupec funkci Filtr.
+   - 5.2 Vyfiltruju v tabulce data jen jednu dekádu (např. 1961-1970). Kliknu na ikonku Filtru ve sloupci s rokem, zvolím "Filtry čisel" a z nabídky vpravo vyberu "Mezi". Filtruj mezi hodnotami „>=1961“ a „<=1970“ (aby bylo jasné, že jde o obě hranice včetně).
+   - 5.3 Vytvoř spojnicový, nebo bodový (je to jedno) graf s osou x jako roky a osou y jako měsíční teploty (karta Vložit → Spojnicový graf)
+   - 5.4 Přidej spojnici trendu: Pravý klik na data v grafu → „Přidat spojnici trendu“. V nabídce vpravo vyberu „lineární“.
+   - 5.5 Zobrazím rovnici spojnice trendu, která mi ukáže změnu teploty za jeden časový interval (dekádu).
+   - 5.6 V grafu se mi objeví rovnice trendu ve tvaru:
+     y=mx+b , kde číslo m mi udává sklon, což je v mém případě průměrná změna teploty za jeden časový interval (dekádu).
+   - 5.7 Přepočítám změnu (trend) teploty za dekádu tak, že pokud je osa x v letech, což je, tak koeficient směrnice m je změna za rok. Změna za dekádu je pak 10×m (např. stupně Celsia za 10 let).
+   - 5.8 Graf doplním o popisky os, nazvu jej podle dekády, kterou zobrazuje, označím jej a zkopíruji jako obrázek do listu TeplotyDekadyTrendy.
+   - 5.9 Postup zpakuji pro každou dekádu zvlášť (1961-1970, 1971-1980, ...) až po poslední dekádu 2001-2020.
+6. Zamyšlení
+   „Jak se průměrná teplota měnila po dekádách?“
+   „Ve které dekádě byl nejrychlejší nárůst?“
+   „Jaká je průměrná změna za dekádu?“
 </details>
   
 <details markdown="1">
