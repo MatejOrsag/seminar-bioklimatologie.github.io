@@ -223,9 +223,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <summary> Cvičení 05 </summary>
 # Cvičení 05 (týden od 03.11.2025) - Analýza měsíčních teplot vzduchu jejich trendů po dekádách (1961–2020)
   
-Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíční teplota za jednotlivé dekády mezi lety 1961–2020 a vytvořit graf, který ukáže:
--průměrnou teplotu za každou dekádu,
--a trend (změnu) mezi dekádami.
+Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíční teplota za jednotlivé dekády mezi lety 1961–2020 a vytvořit graf, který ukáže trendy (změnu) mezi jednotlivými dekádami.
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
