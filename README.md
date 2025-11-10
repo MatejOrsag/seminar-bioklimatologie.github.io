@@ -279,14 +279,14 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
      - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
      - 2.4 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
      - 2.5 V nabídce __Pole kontingenčního grafu__ přeneseme (drag and drop) položku __Měsíc__ (nebo odpovídající název vašeho sloupce s označením měsíce) do boxu __Osa kategorie__
-     - 2.6 Stejným způsobem přeneseme položku __Teplota__ do boxu __Hodnoty__
+     - 2.6 Stejným způsobem přeneseme položku __Srážky__ do boxu __Hodnoty__
      - 2.7 U boxu __Hodnoty__ změníme v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdíme
      - 2.8 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průběh teploty v jednotlivých měsících atd.). Pokud je vše OK, samotný graf můžu smazat.
      - 2.9 hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu
      - 2.10 Postup tvorby kontingenční tabulky zopakujeme pro druhé normálové období
 
-3. Vytvoření jednoho spojnicového grafu pro porovnání obou normálových období
-     - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních sum srážek v jednom sloupcovém grafu
+3. Vytvoření jednoho kombinovaného sloupcového grafu pro porovnání obou normálových období
+     - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních sum srážek v jednom společném sloupcovém grafu
      - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Sloupcový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
      - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
   
