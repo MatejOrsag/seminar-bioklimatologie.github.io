@@ -295,7 +295,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
      - 4.2 Vyberu __Česká Republika__
      - 4.3 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
      - 4.4 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
-     - 4.5 V nabídce Agregace vyberte všechny měsíce leden-prosinec
+     - 4.5 V nabídce Agregace zatrhněte všechny měsíce leden-prosinec a rok
      - 4.6 V nabídce Klimatická projekce vyberte __1995 (1981-2010), 2005 (1991-2020), 2035 (2021-2050), 2065 (2051-2080)__
      - 4.7 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
      - 4.8 V nabídce Klimatická charakteristika vyberte __Počet dní se sněhovou pokrývkou nad 3 cm__
@@ -303,8 +303,8 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
        
 5. Zpracování dat sněhové pokrývky
      - 5.1 Na nový list __DnySnih3cm__ nakopíruji data stažená z portálu ClimRisk
-     - 5.2 Data rozdělím do skupin podle jednotlivých normálů, zachovám pouze identifikaci měsíce a počet dní se sněhovou pokrývkou v měsících a za celý rok, zbývající data z ClimRisk smažu
-     - 5.3 Všchny stažené datové sady pro normálový období porovnám pomocí sloupcového grafu
+     - 5.2 Data nakopíruju do sloupců vedle sebe, pojmenovaných podle jednotlivých normálů, použiji pouze číslo měsíce a počet dní se sněhovou pokrývkou v daném měsíci a za celý rok, zbývající data z listu ClimRisk smažu
+     - 5.3 Všechny stažené datové sady pro normálový období porovnám pomocí sloupcového grafu, kde pro každý měsíc mám čtyři sloupce (pro každé normálové období jeden).
        
 ## Otázky k interpretaci dat ##
 1. Jaké pozorujeme rozdíly ve srážkových úhrnech mezi dvěma historickými normály?
