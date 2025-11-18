@@ -316,6 +316,21 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
 <details markdown="1">
 <summary> Cvičení 07 </summary>
 # Cvičení 07 (týden od 18.11.2025, pondělí 17.11. státní svátek) - Vlhkost vzduchu a výpar
+  - Cílem cvičení je probrat vlkostní charakteristiky a ověřit srážkový gradient na vybraných stanicích
+- __Na konci cvičení mám MS Excel soubor s novým listem SrazkovyGradient s opsanými daty pro vybrané stanice a vykresleným grafem gradientu__
+
+## DŮLEŽITÉ ODKAZY ##
+- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
+
+1. Popsání srážkového gradientu s pomocí Tabulek podnebí
+     - 1.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
+     - 1.1 Opíšu si jména stanic a nadmořské výšky 10 stanic z __Abecedního seznamu srážkoměrných stanic__ (téměř na konci tabulek, před tabulkou č. 52) na list __SrazkovyGradient__ ve svém pracovním excelu
+     - 1.2 Nalistuji téměř na konci __Tabulku č. 52: Průměrný úhrn srážek (mm) za období 1901-1950__
+     - 1.3 Opíšu průměrné roční srážkové úhrny
+     - 1.4 V MS Excel vytvořím bodový graf z dat srážek a nadmořské výšky
+     - 1.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+     - 1.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
+
 </details>
   
 <details markdown="1">
