@@ -343,7 +343,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
 - Denní data směru větru pro naši stanici z repozitáře ČHMÚ [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/)
 
 1. Stažení denních dat směru větru pro moji stanici
-     - 1.0 [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/) vyhledejte pomocí ID stanice soubor který v názvu obsahuje parametr _Dmax_
+     - 1.0 [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/) vyhledejte pomocí ID stanice soubor který v názvu obsahuje parametr _Dmax_ (ne D10, ani Fmax).
      - 1.1 Pokud se sem dostáváte z úvodní stránky repozitáře tak zvolte __daily__ a následně __wind__
   
 2. Zpracování stažených dat
@@ -356,15 +356,15 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
      - 2.3 Smažeme veškerá data před rokem 1961
      - 2.4 Vytvoříme si pomocný sloupec __SmerZaokrouhleni__, pomocí kterého zjednodušíme data pouze na základní směry větru
      - 2.5 Potřebujeme směry pro 45, 90, 135, 180, 225, 270, 315, 360 stupňů a také zachovat hodnoty 0, kterými se označuje bezvětří
-          - Vzorec pro českou verzi MS Excel: =KDYŽ(B2=0;"Calm";ZAOKR.DOLŮ(B2;45))
+          - Vzorec pro českou verzi MS Excel: =KDYŽ(B2=0;"Calm";ZAOKR.DOLŮ(B2;45)). Pokud to excel nechápe, zkuste vyměnit středníky za čárky.
           - Vzorec pro anglickou verzi MS Excel: =IF(B2=0,"Calm",ROUNDDOWN(B2,45))
      - 2.6 Funkční vzorec použijeme pro celá data
      - 2.7 Bokem na stejném listu připravíme pomocnou tabulku pro vykreslení větrné růžice
           - Nadepíšeme si sloupce __Směr, SměrText, Četnost, Podíl__
-          - Do sloupce __Směr__ opíšeme hodnoty 360, 45, 90, 135, 180, 225, 270, 315 a Calm
-          - Do sloupce __SměrText__ S, SV, V, JV, J, JZ, Z, SZ a Bezvětří
+          - Do sloupce __Směr__ opíšeme hodnoty 0, 360, 45, 90, 135, 180, 225, 270, 315 a Calm. Tady se trochu komplikuje, protože severní směr větru odpovídá jak azimutu 0, tak 360, takže v dalším kroku do sloupce SměrText napíšeme nejdříve 0, pod to 360 a pokračujeme 45, 90, ...
+          - Do sloupce __SměrText__ S, S, SV, V, JV, J, JZ, Z, SZ a Bezvětří
           - Do sloupce __Četnost__ spočítáme kolikrát se daná zaokrouhlená hodnota vyskytuje v našem denním záznamu a použijeme výpočet pro všechny hodnoty směru
-               - Vzorec využije funkci countif: __=COUNTIF(C:C;F4)__ (sečti všechny výskyty ve sloupci C, kdy se hodnota rovná vybrané buňce - např. F4)
+               - Vzorec využije funkci countif: __=COUNTIF(C:C;D2)__ (sečti všechny výskyty ve sloupci C, kdy se hodnota rovná vybrané buňce - v mém případě D2)
           - Do sloupce __Podíl__ dopočítáme procentuální vyjádření četnosti
                - Nejdříve si pro všechny vypočítané četnosti uděláme sumu hodnot (např. __=suma(H3:H11)__)
                - Následně do sloupce __Podíl__ pro jednotlivé směry vypočítáme trojčlenkou procentuální zastoupení - abychom mohli vzorec roztáhnout pro všechny hodnoty musíme si zafixovat hodnotu sumy pomocí symbolů dolaru - např. __$H$12__
