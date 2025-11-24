@@ -369,6 +369,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
                - Nejdříve si pro všechny vypočítané četnosti uděláme sumu hodnot (např. __=suma(H3:H11)__)
                - Následně do sloupce __Podíl__ pro jednotlivé směry vypočítáme trojčlenkou procentuální zastoupení - abychom mohli vzorec roztáhnout pro všechny hodnoty musíme si zafixovat hodnotu sumy pomocí symbolů dolaru - např. __$H$12__
           - Výsledkem je hotová tabulka pro tvorbu grafu větrné růžice pro naši stanici
+          - Pokud jste dočetli až sem a jste v pasti a nic z toho nechápete, data četností směru větru lze alternativně stáhnout z [Tabulek podnebí](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf), kde jsou hodnoty uvedeny v Tab. 34 a udělat graf z nich.
       
 3. Tvorba grafu větrné růžice
      - 3.0 Pro tvorbu grafu vybereme naše procentuální hodnoty směru větru (mimo bezvětří)
