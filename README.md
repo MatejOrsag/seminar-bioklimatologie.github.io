@@ -335,7 +335,48 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 08 </summary>
-# Cvičení 08 (24.11.2025) - Charakteristické dny
+# Cvičení 08 (24.11.2025) - Tlak a vítr
+- Cílem cvičení je získat a zpracovat data směru větru pro námi vybranou stanici a vytvořit větrnou růžici
+- __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
+
+## DŮLEŽITÉ ODKAZY ##
+- Denní data směru větru pro naši stanici z repozitáře ČHMÚ [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/)
+
+1. Stažení denních dat směru větru pro moji stanici
+     - 1.0 [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/) vyhledejte pomocí ID stanice soubor který v názvu obsahuje parametr _Dmax_
+     - 1.1 Pokud se sem dostáváte z úvodní stránky repozitáře tak zvolte __daily__ a následně __wind__
+  
+2. Zpracování stažených dat
+     - 2.0 Stažená data obsahují denní hodnoty směru větru (pro maximální rychlost) ve stupních, pro výšku 10 m nad zemí
+     - 2.1 Data jsou oddělena čárkami a oddělovačem desetinných míst je tečka - musím data dostat do formátu čitelného mojí verzí MS Excel
+          - Možnost 1: Můj Excel je přenastaven nebo od začátku operuje s čárkami a tečkami - nic neměním a jen otevřu data a zkontroluji že vypadají v pořádku
+          - Možnost 2: Přenastavím Excel aby takto fungoval (potenciálně si rozbiju veškerá starší data, která zde již mám)
+          - Možnost 3: Použiju fígl s poznámkovým blokem - nahradím čárky za středníky (;) a následně tečky za čárky, data uložím jako csv a načtu do MS Excel
+     - 2.2 Pro další práci budeme potřebovat sloupce _DT_ a __VALUE__, zbývající můžeme smazat
+     - 2.3 Smažeme veškerá data před rokem 1961
+     - 2.4 Vytvoříme si pomocný sloupec __SmerZaokrouhleni__, pomocí kterého zjednodušíme data pouze na základní směry větru
+     - 2.5 Potřebujeme směry pro 45, 90, 135, 180, 225, 270, 315, 360 stupňů a také zachovat hodnoty 0, kterými se označuje bezvětří
+          - Vzorec pro českou verzi MS Excel: =KDYŽ(B2=0;"Calm";ZAOKR.DOLŮ(B2;45))
+          - Vzorec pro anglickou verzi MS Excel: =IF(B2=0,"Calm",ROUNDDOWN(B2,45))
+     - 2.6 Funkční vzorec použijeme pro celá data
+     - 2.7 Bokem na stejném listu připravíme pomocnou tabulku pro vykreslení větrné růžice
+          - Nadepíšeme si sloupce __Směr, SměrText, Četnost, Podíl__
+          - Do sloupce __Směr__ opíšeme hodnoty 360, 45, 90, 135, 180, 225, 270, 315 a Calm
+          - Do sloupce __SměrText__ S, SV, V, JV, J, JZ, Z, SZ a Bezvětří
+          - Do sloupce __Četnost__ spočítáme kolikrát se daná zaokrouhlená hodnota vyskytuje v našem denním záznamu a použijeme výpočet pro všechny hodnoty směru
+               - Vzorec využije funkci countif: __=COUNTIF(C:C;F4)__ (sečti všechny výskyty ve sloupci C, kdy se hodnota rovná vybrané buňce - např. F4)
+          - Do sloupce __Podíl__ dopočítáme procentuální vyjádření četnosti
+               - Nejdříve si pro všechny vypočítané četnosti uděláme sumu hodnot (např. __=suma(H3:H11)__)
+               - Následně do sloupce __Podíl__ pro jednotlivé směry vypočítáme trojčlenkou procentuální zastoupení - abychom mohli vzorec roztáhnout pro všechny hodnoty musíme si zafixovat hodnotu sumy pomocí symbolů dolaru - např. __$H$12__
+          - Výsledkem je hotová tabulka pro tvorbu grafu větrné růžice pro naši stanici
+      
+3. Tvorba grafu větrné růžice
+     - 3.0 Pro tvorbu grafu vybereme naše procentuální hodnoty směru větru (mimo bezvětří)
+     - 3.1 Na kartě __Vložení__ zvolíme možnost __Vložit vodopádový, trychtýřový, burzovní, povrchový nebo paprskový graf__ a v další nabídce vybereme __Paprskový s výplní__
+     - 3.2 Doplníme všechny náležitosti grafu
+     - 3.3 Jako popisky os zvolíme námi připravené texty ze sloupce __SměrText__
+     - 3.4 Do grafu jako text přidáme také procentuální hodnotu pro bezvětří
+
 </details>
   
 <details markdown="1">
