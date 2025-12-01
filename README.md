@@ -382,12 +382,18 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 09 </summary>
-# Cvičení 09 (01.12.2025) - Sucho
+# Cvičení 09 (01.12.2025) - Test nanečisto a opakování a doplnění znalostí z předcházejících cvičení
+
+# Odkazy pro zvídavé #
+- Infografiky k dopadů klimatické změny v ČR: [www.klimatickazmena.cz](https://www.klimatickazmena.cz/infografiky/)
+- Portál světové meteorologické organizace: [Atlas témat ZDE](https://wmo.int/topics)
+- Podklady portálu Fakta o klimatu: [Grafiky ZDE](https://faktaoklimatu.cz/temata/klimaticka-zmena)
+- Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
 </details>
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (08.12.2025) - Tlak a vítr
+# Cvičení 10 (08.12.2025) - TBD
 </details>
   
 <details markdown="1">
