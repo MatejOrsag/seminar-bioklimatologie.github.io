@@ -406,7 +406,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
 <details markdown="1">
 <summary> Cvičení 11 </summary>
 # Cvičení 11 (týden 15.12.2025) - Kontrola seminárních prací a zápočty
-  [https://gifdb.com/gif/last-day-of-work-teachers-on-tv-land-k9fs4o94wpueh0ah.html?embed=true](https://gifdb.com/images/high/last-day-of-work-teachers-on-tv-land-k9fs4o94wpueh0ah.webp)
+ ![The End](/end of semester.png)
 </details>
 
 
