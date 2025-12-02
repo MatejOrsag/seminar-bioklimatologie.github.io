@@ -393,7 +393,14 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (08.12.2025) - TBD
+# Cvičení 10 (08.12.2025) - Oblaka (ne mraky)
+- Cílem cvičení je získat přehled o klasifikaci a druzích oblaků. 
+
+# Odkazy pro zvídavé #
+- Můžete navštívit stránky světové meteorologické asociace (WMO), kde najdete [online atlas oblaků](https://cloudatlas.wmo.int/en/home.html) (eng).
+- Najdete [klasifikaci jednotlivých mraků](https://cloudatlas.wmo.int/en/clouds-definitions.html), na základě výšky, v jaké se tvoří, nebo jejich vertikálního vývoje .
+- Najdete tam i [definice jednotlivých typů oblaků](https://cloudatlas.wmo.int/en/descriptions-of-clouds.html), včetně mnoha fotografií.
+- Komu to nestačilo, můžete si zopakovat i cvičení o meteorech a podívat se na [definice a popis jednotlivých typů meteorů](https://cloudatlas.wmo.int/en/definitions-and-descriptions-of-meteors.html).
 </details>
   
 <details markdown="1">
