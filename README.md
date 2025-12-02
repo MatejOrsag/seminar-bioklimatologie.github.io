@@ -406,7 +406,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
 <details markdown="1">
 <summary> Cvičení 11 </summary>
 # Cvičení 11 (týden 15.12.2025) - Kontrola seminárních prací a zápočty
-- Kdo má všechno hotové a nemá víc jak dvě neomluvené absence dostane zápočet a může jít ke zkoušce.
+- Kdo má všechno hotové a nemá víc jak dvě neomluvené absence, ten nechť dostane zápočet a může jít ke zkoušce.
  ![The End](/end of semester.png)
 </details>
 
