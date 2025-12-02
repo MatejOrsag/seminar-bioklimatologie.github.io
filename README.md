@@ -335,7 +335,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 08 </summary>
-# Cvičení 08 (24.11.2025) - Tlak a vítr
+# Cvičení 08 (týden od 24.11.2025) - Tlak a vítr
 - Cílem cvičení je získat a zpracovat data směru větru pro námi vybranou stanici a vytvořit větrnou růžici
 - __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
 
@@ -382,7 +382,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 09 </summary>
-# Cvičení 09 (01.12.2025) - Test nanečisto a opakování a doplnění znalostí z předcházejících cvičení
+# Cvičení 09 (týden 01.12.2025) - Test nanečisto a opakování a doplnění znalostí z předcházejících cvičení
 
 # Odkazy pro zvídavé #
 - Infografiky k dopadů klimatické změny v ČR: [www.klimatickazmena.cz](https://www.klimatickazmena.cz/infografiky/)
@@ -393,7 +393,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (08.12.2025) - Oblaka (ne mraky)
+# Cvičení 10 (týden od 08.12.2025) - Oblaka (ne mraky)
 - Cílem cvičení je získat přehled o klasifikaci a druzích oblaků. 
 
 # Odkazy pro zvídavé #
@@ -405,7 +405,8 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 11 </summary>
-# Cvičení 11 (15.12.2025) - Kontrola seminárních prací a zápočty
+# Cvičení 11 (týden 15.12.2025) - Kontrola seminárních prací a zápočty
+  [https://gifdb.com/gif/last-day-of-work-teachers-on-tv-land-k9fs4o94wpueh0ah.html?embed=true](https://gifdb.com/images/high/last-day-of-work-teachers-on-tv-land-k9fs4o94wpueh0ah.webp)
 </details>
 
 
