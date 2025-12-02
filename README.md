@@ -272,7 +272,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
 1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím dva nové listy a pojmenuji je __NormalySrazky__ a __DnySnih3cm__
 
 2. Příprava dat a vytvoření kontingenční tabulky - srážky
-     - 2.1 Na nový list __NormalySrazky__ nakopíruji data z listu __Srazky__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
+     - 2.1 Na nový list __NormalySrazky__ nakopíruji data z listu __Srazky__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, srážky) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, srážky) od sloupce __E__
      - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců) tak ho u obou normálů doplním (__ROK, MĚSÍC, SUMA SRÁŽEK__)
      - 2.3 Nyní vložíme tzv. kontingenční graf a kontingenční tabulku. Na záložce __Vložit__ vybereme __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (Na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
      - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
