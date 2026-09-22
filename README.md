@@ -1,18 +1,20 @@
 # Základní informace
 - Můj kontaktní email je matej.orsag@mendelu.cz, najdete mě v kanceláři N5060 (snažme se ale maximum vyřešit osobně, ve cvičení)
-- Na každé cvičení potřebuju notebook, MS Excel s __dokončenou prací z minulého cvičení__
+- Na každé cvičení potřebuju notebook (klidně i starý), MS Excel s __dokončenou prací z minulého cvičení__, protože budeme navazovat
 
 ## Jak dostanu zápočet
 - Splním 2 úkoly:
   - Seminární práce z klimatologie
-  - Docházka (můžu mít max. 2 absence, přičemž moje nulová aktivita ve cvičení může být považována za absenci, přestože nacvičení fyzicky jsem)   
+  - Docházka (můžu mít max. 2 absence, přičemž moje nulová aktivita ve cvičení může být považována za absenci, přestože nacvičení fyzicky jsem)
+  - Fenologické pozorování v místě bydliště, viz zadání na prvním cvičení
 
-## Co potřebuji pro práci ve cvičení
-- Wi-Fi - ideálně EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
+## Co potřebuji pro práci ve cvičení (připravte si dopředu)
+- funkční notebook, ideálně i myš
+- funkční připojení k internetu, např. univerzitní Wi-Fi EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
 - MS Excel ([ZDE najdu jak ho získám](https://tech.mendelu.cz/25346-instalace-baliku-microsoft))
 
 ## Co mám dělat když něco nevím nebo nestíhám?
-  - Ptám se na cvičení
+  - Ptám se přímo na cvičení, od toho tam jsme
   - Ptám se spolužáků
   - Ptám se Googlu nebo AI
 
@@ -27,7 +29,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 # Cvičení 01 (týden od 05.10.2026) - Zadání seminární práce z klimatologie, získání dat
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
-- __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro mojí vybranou stanici__
+- __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro moji vybranou stanici__
 
 ## DŮLEŽITÉ ODKAZY ##
 - Mapa stanic Českého hydrometeorologického ústavu: [Mapa stanic ZDE](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM)
@@ -42,8 +44,9 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.1 V legendě vyberu stanice podle legendy (zkontroluju, jestli je zakliknuté "T" a "SRA", jako teplota a hledám stanici kde se obě veličiny měří = překrývá se v jejich ikonce čtvereček (teplota) a puntík (srážky)).
      - 2.2 Každý student ve skupině si vybere jinou stanici
      - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
-     - 2.4 nevybírám si následující stanice (nedostatečná data - krátké časové řady)
+     - 2.4 nevybírám si následující stanice (nedostatečná data - krátké časové řady):
           - _Žamberk_, _Třebařov_, _Ústí nad Orlicí_, _Jičín_, _Libice nad Doubravou_, _Šumperk_, _Kobylí_, _Hubenov_, _Praděd_, _Jeseník_, _Třeboň_, _Lednice_, _Protivanov_, _Třinec_, _Strážnice_
+     - pokud narazíte na 
 
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
