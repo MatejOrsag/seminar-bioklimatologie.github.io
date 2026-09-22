@@ -24,13 +24,13 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 01 </summary>
 
-# Cvičení 01 (týden od 06.10.2025) - Zadání seminární práce z klimatologie, získání dat
+# Cvičení 01 (týden od 05.10.2026) - Zadání seminární práce z klimatologie, získání dat
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
 - __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro mojí vybranou stanici__
 
 ## DŮLEŽITÉ ODKAZY ##
-- Mapa stanic Českého hydrometeorologického ústavu: [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
+- Mapa stanic Českého hydrometeorologického ústavu: [Mapa stanic ZDE](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM)
 - Metadatový soubor pro vyhledání identifikátoru stanic: [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
 - Datový repozitář ČHMÚ: [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
 
@@ -38,7 +38,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 1. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_Bioklimatologie.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
 
-2. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
+2. Na mapě stanic vyberu stanici [Mapa stanic ZDE]([https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM))
      - 2.1 V legendě vyberu stanice podle legendy (zkontroluju, jestli je zakliknuté "T" a "SRA", jako teplota a hledám stanici kde se obě veličiny měří = překrývá se v jejich ikonce čtvereček (teplota) a puntík (srážky)).
      - 2.2 Každý student ve skupině si vybere jinou stanici
      - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
@@ -86,7 +86,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 02 </summary>
   
-# Cvičení 02 (týden od 13.10.2025) - Radiace a teplota
+# Cvičení 02 (týden od 12.10.2026) - Radiace a teplota
 - Cílem cvičení je vysvětlit si základní terminologii k tématu [slunečního záření (=solární radiace)](https://is.muni.cz/do/rect/el/estud/pedf/ps14/fyz_geogr/web/pages/03-prvky.html), pochopení vztahu radiace a teploty vzduchu a otestovat si možnosti získání dat z jiných zdrojů, než je ČHMÚ.
 - __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme měsíční hodnoty solární radiace a teplot pro naši vybranou stanici__
   
@@ -131,7 +131,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 03 </summary>
 
-# Cvičení 03 (týden od 20.10.2025) - Srovnání průměrných měsíčních teplot za dvě normálová období
+# Cvičení 03 (týden od 19.10.2026) - Srovnání průměrných měsíčních teplot za dvě normálová období
   - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích.
 - __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnáme data průměrných teplot vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
 
@@ -168,7 +168,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1"> 
 <summary> Cvičení 04 </summary>
 
-# Cvičení 04 (týden od 27.10.2025, úterý 28.10. státní svátek) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu www.climRisk.cz
+# Cvičení 04 (týden od 26.10.2026, středa je 28.10. státní svátek) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu www.climRisk.cz
 - Cílem cvičení je (pomocí dat z climrisk.cz) analyzovat předpokládaný budoucí vývoj klimatu pro naši stanici a porovnat jej s daty, získanými z historických (1961-2020) měření z ČHMÚ (stáhli jsme si v prvním cvičení).
 - __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
   
@@ -221,7 +221,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (týden od 03.11.2025) - Analýza měsíčních teplot vzduchu jejich trendů po dekádách (1961–2020)
+# Cvičení 05 (týden od 2.11.2026) - Analýza měsíčních teplot vzduchu jejich trendů po dekádách (1961–2020)
   
 Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíční teplota za jednotlivé dekády mezi lety 1961–2020 a vytvořit graf, který ukáže trendy (změnu) mezi jednotlivými dekádami.
 
@@ -260,7 +260,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 06 </summary>
-# Cvičení 06 (týden od 10.11.2025) - Srážky
+# Cvičení 06 (týden od 9.11.2026) - Srážky
   
 - Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
 - __Na konci cvičení mám MS Excel soubor s novými listy NormalySrazky a DnySnih3cm, kde srovnáme data srážkových úhrnů v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení a počet dní se sněhovou pokrývkou nad 3 cm v současném a budoucím klimatu__
@@ -315,7 +315,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 07 </summary>
-# Cvičení 07 (týden od 18.11.2025, pondělí 17.11. státní svátek) - Vlhkost vzduchu a výpar
+# Cvičení 07 (týden od 16.11.2026, úterý 17.11. státní svátek) - Vlhkost vzduchu a výpar
   - Cílem cvičení je probrat vlkostní charakteristiky a ověřit srážkový gradient na vybraných stanicích
 - __Na konci cvičení mám MS Excel soubor s novým listem SrazkovyGradient s opsanými daty pro vybrané stanice a vykresleným grafem gradientu__
 
@@ -335,7 +335,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 08 </summary>
-# Cvičení 08 (týden od 24.11.2025) - Tlak a vítr
+# Cvičení 08 (týden od 23.11.2026) - Tlak a vítr
 - Cílem cvičení je získat a zpracovat data směru větru pro námi vybranou stanici a vytvořit větrnou růžici
 - __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
 
@@ -382,7 +382,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 09 </summary>
-# Cvičení 09 (týden 01.12.2025) - Test nanečisto a opakování a doplnění znalostí z předcházejících cvičení
+# Cvičení 09 (týden 30.11.2026) - Test nanečisto a opakování a doplnění znalostí z předcházejících cvičení
 
 # Odkazy pro zvídavé #
 - Infografiky k dopadů klimatické změny v ČR: [www.klimatickazmena.cz](https://www.klimatickazmena.cz/infografiky/)
@@ -393,7 +393,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (týden od 08.12.2025) - Oblaka (ne mraky)
+# Cvičení 10 (týden od 07.12.2025) - Oblaka (ne mraky)
 - Cílem cvičení je získat přehled o klasifikaci a druzích oblaků. 
 
 # Odkazy pro zvídavé #
@@ -405,7 +405,7 @@ Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná měsíčn�
   
 <details markdown="1">
 <summary> Cvičení 11 </summary>
-# Cvičení 11 (týden 15.12.2025) - Kontrola seminárních prací a zápočty
+# Cvičení 11 (týden 14.12.2026) - Kontrola seminárních prací a zápočty
 - Kdo má všechno hotové a nemá víc jak dvě neomluvené absence, ten nechť dostane zápočet a může jít ke zkoušce.
 
   
