@@ -40,18 +40,18 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 1. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_Bioklimatologie.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
 
-2. Na mapě stanic vyberu stanici [Mapa stanic ZDE]([https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM))
-     - 2.1 V legendě vyberu stanice podle legendy (zkontroluju, jestli je zakliknuté "T" a "SRA", jako teplota a hledám stanici kde se obě veličiny měří = překrývá se v jejich ikonce čtvereček (teplota) a puntík (srážky)).
-     - 2.2 Každý student ve skupině si vybere jinou stanici
-     - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
-     - 2.4 nevybírám si následující stanice (nedostatečná data - krátké časové řady):
-          - _Žamberk_, _Třebařov_, _Ústí nad Orlicí_, _Jičín_, _Libice nad Doubravou_, _Šumperk_, _Kobylí_, _Hubenov_, _Praděd_, _Jeseník_, _Třeboň_, _Lednice_, _Protivanov_, _Třinec_, _Strážnice_
-     - pokud narazíte na 
+Nyní si potřebuji vybrat nějakou stanici, která má data teploty vzduchu i srážek za celé období posledních dvou klimatických normálů, tzn. 1961-1990 i 1991-2020. S těmito daty budu pracovat po zbytek semestru. Každý student ve cvičení si vybere jinou stanici.
 
+2. Na mapě stanic vyberu stanici [Mapa stanic ZDE]([https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM))
+     - 2.1 Na mapě vidím spoustu bodů, každý z nich představuje nějakou meteostanici. V nabídce vpravo "Výběr vrstvy" klikneme na "Teplota" (stanice měřící teplotu obvykle měří i úhrn srážek, takže nejspíš bude mít oboje). Vyberu si bod-stanici a kliknu na něj levým tlačítkem myši a dále rozkliknu "Detail" stanice, což mě přivede na stránku konkrétní stanice.
+     - 2.2 Pokud vidím vlevo nahoře položky vedle záložky "Počasí" také i "Teplota" a "Srážky", tak tím mám potvrzeno, že stanice by měla měřit obě tyto proměnné. Teď potřebuji ověřit, zda tato stanice má data teploty i srážek pro celé období 1961-2020.
+     - 2.3 Kliknu na vlevo nahoře na "Historická data", což mě přenese na další stránku, kde vidím tabulku "Dlouhodobé průměry" a v ní hodnoty pro "Průměrná roční teplota vzduchu" i pro "Průměrný roční úhrn srážek" a za obě normálová období 1961-1990 i 1991-2020, tak mám vyhráno - data z této stanice mají dostatečně dlouhý záznam a můžu je použít (stáhnout).
+     - 2.4 Pokud vybraná stanice nemá data v plné délce 1961-1990 a 1991-2020 pro teplotu vzduchu i srážky, tak se vracím k bodu 2.1 a zkouším najít jinou stanici.
+     - 2.5 Vrátím se o úroveň výš a v sekci "Informace o stanici" si poznačím si GPS pozici, nadmořskou výšku a i ID (kód) stanice, např. P3VLAS01.
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
      - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice (__CTRL+F__)
-     - 3.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
+     - 3.3 Ověřím, že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
      - 3.4 Poznačím si interní kód stanice (sloupec A "WSI")
      - 3.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
 
