@@ -48,17 +48,20 @@ Nyní si potřebuji vybrat nějakou stanici, která má data teploty vzduchu i s
      - 2.3 Kliknu na vlevo nahoře na "Historická data", což mě přenese na další stránku, kde vidím tabulku "Dlouhodobé průměry" a v ní hodnoty pro "Průměrná roční teplota vzduchu" i pro "Průměrný roční úhrn srážek" a za obě normálová období 1961-1990 i 1991-2020, tak mám vyhráno - data z této stanice mají dostatečně dlouhý záznam a můžu je použít (stáhnout).
      - 2.4 Pokud vybraná stanice nemá data v plné délce 1961-1990 a 1991-2020 pro teplotu vzduchu i srážky, tak se vracím k bodu 2.1 a zkouším najít jinou stanici.
      - 2.5 Vrátím se o úroveň výš a v sekci "Informace o stanici" si poznačím si GPS pozici, nadmořskou výšku a i ID (kód) stanice, např. P3VLAS01.
+
+Pro jistotu to ještě nezávisle ověřím následujícím postupem:
+  
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
-     - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice (__CTRL+F__)
-     - 3.3 Ověřím, že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
+     - 3.2 Vyhledám v souboru svou vybranou stanici pomocí ID stanice, které je ve sloupci B. Stisknu __CTRL+F__, vložím do vyhledávacího pole ID stanice a stisknu Enter. Jedna stanice může zabírat několik řádků pod sebou. V každém řádku je uvedeno období, po které stanice měřila - začátek období je ve sloupci C a konec ve sloupci D. Pokud poslední období ve sloupci D končí 3999 znamená to, že stanice měří do současnosti.
+     - 3.3 Ověřím že stanice měří kontinuálně od roku 1961 (případně starší datum). Pokud ne, raději zvolím jinou -> jdu na bod 2.1
      - 3.4 Poznačím si interní kód stanice (sloupec A "WSI")
-     - 3.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
+     - 3.5 Zkontroluju si souřadnice stanice (sloupce F “GEOGR1” a G “GEOGR2”) a nadmořskou výšku (sloupec H “ELEVATION”), jestli to sedí s tím, co jsem si poznačil v bodu 2.5
 
 4. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
      - 4.1 Volím složku __monthly__
      - 4.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
-     - 4.3 Nyní využiji svůj interní kód stanice (_viz. bod 3.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
+     - 4.3 Nyní využiji svůj interní kód stanice (_viz. body 2.5 nebo 3.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
      - 4.4 Zajímá nás pouze soubor označený "T" (Nezajímá nás: TMA, TMI, TMInoc, TPM) a ten stáhneme
      - 4.5 Zopakuji postup získání dat pro srážky
    
