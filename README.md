@@ -42,7 +42,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 Nyní si potřebuji vybrat nějakou stanici, která má data teploty vzduchu i srážek za celé období posledních dvou klimatických normálů, tzn. 1961-1990 i 1991-2020. S těmito daty budu pracovat po zbytek semestru. Každý student ve cvičení si vybere jinou stanici.
 
-2. Na mapě stanic vyberu stanici [Mapa stanic ZDE]([https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM))
+2. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM)
      - 2.1 Na mapě vidím spoustu bodů, každý z nich představuje nějakou meteostanici. V nabídce vpravo "Výběr vrstvy" klikneme na "Teplota" (stanice měřící teplotu obvykle měří i úhrn srážek, takže nejspíš bude mít oboje). Vyberu si bod-stanici a kliknu na něj levým tlačítkem myši a dále rozkliknu "Detail" stanice, což mě přivede na stránku konkrétní stanice.
      - 2.2 Pokud vidím vlevo nahoře položky vedle záložky "Počasí" také i __"Teplota"__ a __"Srážky"__, tak tím mám potvrzeno, že stanice by měla měřit obě tyto proměnné. Teď potřebuji ověřit, zda tato stanice má data teploty i srážek pro celé obě období __1961-1990 a 1991-2020__.
      - 2.3 Kliknu na vlevo nahoře na "Historická data", což mě přenese na další stránku, kde vidím tabulku "Dlouhodobé průměry" a v ní hodnoty pro "Průměrná roční teplota vzduchu" i pro "Průměrný roční úhrn srážek" a za obě normálová období 1961-1990 i 1991-2020, tak mám vyhráno - data z této stanice mají dostatečně dlouhý záznam a můžu je použít (stáhnout).
