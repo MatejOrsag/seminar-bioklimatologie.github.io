@@ -68,7 +68,7 @@ Pro jistotu to ještě nezávisle ověřím následujícím postupem:
    
 5. Příprava vstupních dat
      - 5.1 Otevřu stažený CSV soubor v MS Excel 
-     - 5.2 Rozdělíme data do sloupců (POZOR NA HODNOTY! - Podívám se do sloupce "VALUE" jestli tam nevidím žádné římské číslice - Excel možná bude převádět vaše čísla na datumy, pokud jo, zavřu soubor a nejdříve upravím data dle bodu "Úprava dat" na konci zadání)
+     - 5.2 Rozdělíme data do sloupců - v Excelu záložka Data, pak "Text do sloupců", nastavím oddělovač sloupců (středník, nebo čárka). Zkontroluju si hodnoty čísla ve sloupci "VALUE" - jestli tam nevidím žádné římské číslice (např. IV, XII). Excel možná bude převádět vaše čísla na datumy, pokud jo, zavřu soubor (bez uložení změn) a nejdříve upravím data dle bodu "Úprava dat" na konci zadání), případně použiju [převodník csv souborů na xlsx](https://milanfischer.github.io/vyuka/csv2xlsx.html), který by měl zvládnout udělat výše uvedené za mě.
      - 5.3 U teploty nezapomenu vyfiltrovat pouze průměrné hodnoty ("AVG" - sloupce E a F): výsledkem jsou měsíční hodnoty průměrné teploty vzduchu ve všech letech dostupných pro moji stanici
      - 5.4 Data ze sloupců C ("YEAR"), D ("MONTH") a G ("VALUE") zkopíruji do připraveného Excelu (viz __Krok 1__) na první list
      - 5.5 Sloupec "VALUE" přejmenuji na TAVG
