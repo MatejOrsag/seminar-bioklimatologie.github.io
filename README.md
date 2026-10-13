@@ -157,7 +157,7 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
     - 2.7 U výběru __Time step__ volím __1 month__
     - 2.8 U výběru __Time reference__ volím __True solar time__
     - 2.9 U výběru __Data format__ volím __CSV__
-    - 2.10 Potvrdím potřebné souhlasy a požádám o data klikem na __Submit form__. Budu pár minut čekat, než se data vygenerují, a pak si je stáhnu.
+    - 2.10 Potvrdím potřebné souhlasy a požádám o data klikem na __Submit form__. Budu pár minut čekat, než se data vygenerují, a pak si je stáhnu. Budou se jmenovat jako změť písmen, např. "3c429be5c399383e3fb1cd2c8a57feb2.csv"
 
 <!-- SCREENSHOT: img/cv02_copernicus_formular.png | vyplněný formulář Copernicus (Sky type, Time step, Time reference, CSV) -->
 
