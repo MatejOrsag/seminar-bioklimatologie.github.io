@@ -53,6 +53,7 @@ Jeden soubor __PrijmeniJmeno_Bioklimatologie.xlsx__ s těmito listy (každý gra
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
 - __Na konci cvičení mám MS Excel soubor se dvěma listy (Teplota a Srazky) s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro moji vybranou stanici__
+- ![Graf Teplota a srážky 1961-2020](img/cv01_graf_teplota_srazky.png)
 
 ## DŮLEŽITÉ ODKAZY ##
 - Mapa stanic Českého hydrometeorologického ústavu: [Mapa stanic ZDE](https://www.chmi.cz/namerena-data/umisteni-mericich-stanic/meteorologicke?c=50.0000,15.8258,7.5088&l=kraje,vse,ZTM)
@@ -146,6 +147,7 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím nový list a pojmenuji ho __TeplotaRadiace__.
     - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data (CTRL+C, CTRL+V) ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu __Teplota__.
     - 1.2 Nechám si v listu pouze časovou řadu únor 2004 až prosinec 2025 (ve službě Copernicus jsou data až od února 2004) a zbytek mohu z tohoto listu smazat (__pozor, nesmažu si hodnoty z originálních dat na listu _Teplota___).
+    - - ![Grad Radiace a teplota](cv03_graf_Radiace_teplota.png)
 
 2. Stahuji data pro solární radiaci ze služby Copernicus
     - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT MAILEM, díky čemuž budu moci službu využívat kdykoli v budoucnu)
@@ -158,7 +160,7 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
     - 2.8 U výběru __Time reference__ volím __True solar time__
     - 2.9 U výběru __Data format__ volím __CSV__
     - 2.10 Potvrdím potřebné souhlasy a požádám o data klikem na __Submit form__. Budu pár minut čekat, než se data vygenerují, a pak si je stáhnu. Budou se jmenovat jako změť písmen, např. "3c429be5c399383e3fb1cd2c8a57feb2.csv"
-
+    - ![Takhle vypadají stažená data](img/cv02_Radiace_stazena.png)
 <!-- SCREENSHOT: img/cv02_copernicus_formular.png | vyplněný formulář Copernicus (Sky type, Time step, Time reference, CSV) -->
 
 3. Práce se staženými daty solární radiace
