@@ -147,7 +147,7 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím nový list a pojmenuji ho __TeplotaRadiace__.
     - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data (CTRL+C, CTRL+V) ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu __Teplota__.
     - 1.2 Nechám si v listu pouze časovou řadu únor 2004 až prosinec 2025 (ve službě Copernicus jsou data až od února 2004) a zbytek mohu z tohoto listu smazat (__pozor, nesmažu si hodnoty z originálních dat na listu _Teplota___).
-    - - ![Grad Radiace a teplota](cv03_graf_Radiace_teplota.png)
+    - - ![Grad Radiace a teplota](img/cv03_graf_Radiace_teplota.png)
 
 2. Stahuji data pro solární radiaci ze služby Copernicus
     - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT MAILEM, díky čemuž budu moci službu využívat kdykoli v budoucnu)
