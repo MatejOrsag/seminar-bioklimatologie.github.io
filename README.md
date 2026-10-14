@@ -150,28 +150,29 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
     - - ![Grad Radiace a teplota](img/cv03_graf_Radiace_teplota.png)
 
 2. Stahuji data pro solární radiaci ze služby Copernicus
-    - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT MAILEM, díky čemuž budu moci službu využívat kdykoli v budoucnu)
-    - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy
-    - 2.3 U výběru __Sky type__ volím __Both cloud-free and actual weather conditions__
-    - 2.4 Zadám souřadnice své stanice (pokud jsem si minule neopsal souřadnice ze souboru meta1.csv, můžu tak učinit znovu, anebo si je najdu pomocí mapy.com). Na mapě zkontroluju, že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice. Pozn.: pokud mě to zaujalo, mohu si analogicky stáhnout data radiace pro libovolný bod v rámci Evropy.
-    - 2.5 Zadám nadmořskou výšku své stanice
-    - 2.6 Jako rozpětí datumů zvolím __2004-02-01 až 2024-12-31__ (k dispozici jsou data od února 2004 do předvčerejška)
-    - 2.7 U výběru __Time step__ volím __1 month__
+    - 2.1 Jdu na stránky Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) A MUSÍM SE NEJPRVE REGISTROVAT MAILEM, díky čemuž budu moci službu využívat kdykoli v budoucnu. Zadejte tam např. univerzitní mail, bude se vás to ptát na víc věcí, zadajte nezbytné minimum, není to podstatné. Např. instituci (Mendelu), sektor (např. Research & Education, anebo Other. Po registraci přijde potvrzovací mail. Až pak můžete přejít zpět na stránky Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) a vyberu záložku __Download__
+    - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy:
+    - 2.3 U výběru __Sky type__ nezapomenu zvolit __Both cloud-free and actual weather conditions__
+    - 2.4 Zadám souřadnice své stanice s přesností na 2 desetinná místa (pokud jsem si minule neopsal souřadnice ze souboru meta1.csv, můžu tak učinit znovu, anebo si je najdu pomocí mapy.com). Zkontroloju si, jestli jsem Latitude a Longitude zadal do správného políčka (= na mapě zkontroluju, že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice). 
+    - 2.5 Zadám nadmořskou výšku své stanice (půjde to i bez ní)
+    - 2.6 Jako rozpětí datumů zvolím __2004-02-01 až 2020-12-31__ (k dispozici jsou data od února 2004 do předvčerejška, ale nám stačí do konce roku 2020, stejně jako máme teplotu)
+    - 2.7 U výběru __Time step__ volím __1 month__ (měsíční krok)
     - 2.8 U výběru __Time reference__ volím __True solar time__
     - 2.9 U výběru __Data format__ volím __CSV__
-    - 2.10 Potvrdím potřebné souhlasy a požádám o data klikem na __Submit form__. Budu pár minut čekat, než se data vygenerují, a pak si je stáhnu. Budou se jmenovat jako změť písmen, např. "3c429be5c399383e3fb1cd2c8a57feb2.csv"
+    - 2.10 Potvrdím potřebné souhlasy a požádám o data klikem na __Submit form__. Vpravo kliknu na tlačítko "Your Requests" (Vaše požadavky) a budu pár minut čekat, než se data vygenerují. Jakmile se objeví tlačítko Download, tak si stáhnu vygenerovaný csv soubor. Budou se jmenovat jako změť písmen, např. "3c429be5c399383e3fb1cd2c8a57feb2.csv"
+    - Pozn.: pokud mě to zaujalo, mohu si analogicky stáhnout data radiace pro libovolný bod v rámci Evropy.
     - ![Takhle vypadají stažená data](img/cv02_Radiace_stazena.png)
 <!-- SCREENSHOT: img/cv02_copernicus_formular.png | vyplněný formulář Copernicus (Sky type, Time step, Time reference, CSV) -->
 
 3. Práce se staženými daty solární radiace
-    - 3.1 Stažený soubor otevřu v MS Excel. Pokud jsou data už rozdělená do sloupců a čísla vypadají správně, body 3.1 a 3.2 přeskočím. Jinak pomocí __CTRL + H__ (__Najít a nahradit__) nahradím čárky středníky (;) a pak tečky čárkami, stejně jako na prvním cvičení s daty z ČHMÚ.
+    - 3.1 Stažený soubor otevřu v MS Excel. Zkontroluji, zda je tam celé období 1. 2. 2004–31. 12. 2020 a zda obsahuje sloupec "GHI". Scroluju dolů na data a pokud vidím, že jsou data už rozdělená do sloupců a čísla vypadají správně, body 3.1 a 3.2 přeskočím. Jinak pomocí __CTRL + H__ (__Najít a nahradit__) nahradím čárky středníky (;) a pak tečky čárkami, stejně jako na prvním cvičení s daty z ČHMÚ.
     - 3.2 Použiji trik s rozdělením dat do sloupců (vyberu sloupec _A_ a na kartě _Data_ zvolím _Text do sloupců_), kde mám středník (__;__) jako oddělovač
     - 3.3 Prozkoumám hlavičku souboru (řádky začínající #) a co v ní vše můžu vidět za informace
-    - 3.4 Pro další postup budu pracovat s hodnotami __globální radiace__ označenými jako __GHI__. Jednotka je __Wh/m²__ (suma energie, která dopadla na 1 m² vodorovné plochy za daný měsíc). Pro čitelnější čísla si můžu hodnoty vydělit 1000 a dostanu __kWh/m²__.
-    - 3.5 Vyberu hodnoty ze sloupců __GHI__ a __Observation period__ a nakopíruji je na připravený list TeplotaRadiace (zkontroluji, zda data mají stejný začátek a konec v čase, a případně si to upravím tak, aby měla)
+    - 3.4 Pro další postup budu potřebovat jen jediný sloupec, s hodnotami __globální radiace__ označenými jako __GHI__ (GLobal Horizontal Irradiance). Jednotka je __Wh/m²__ (suma energie, která dopadla na 1 m² vodorovné plochy za daný měsíc). Pro čitelnější čísla si můžu hodnoty vydělit 1000 a dostanu __kWh/m²__.
+    - 3.5 Označím hodnoty ze sloupců __GHI__ a  nakopíruji je na připravený list TeplotaRadiace (zkontroluji, zda data mají stejný začátek a konec v čase, a případně si to upravím tak, aby měla)
 
 > ✅ __Kontrolní bod:__
-> - Na listu TeplotaRadiace mám __251 řádků dat__ (únor 2004 až prosinec 2024) a v každém řádku sedí měsíc teploty s měsícem radiace.
+Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 2020 a v každém řádku sedí měsíc teploty s měsícem radiace.
 > - GHI je nejvyšší v létě (květen až červenec), řádově 150 až 190 kWh/m² za měsíc, a nejnižší v prosinci, řádově 15 až 30 kWh/m². Pokud mám čísla úplně jinde, zkontroluju jednotky a jestli jsem nevybral jiný sloupec.
 
 4. Porovnání dat měsíčních teplot a sum globální radiace
