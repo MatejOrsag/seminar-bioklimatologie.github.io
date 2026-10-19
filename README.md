@@ -196,6 +196,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 # Cvičení 03 (týden od 19.10.2026) - Srovnání průměrných měsíčních teplot za dvě normálová období
 - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích.
 - __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnám průměrné teploty vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 a 1991-2020, včetně grafického zobrazení__
+- ![Srovnání průměrných měsíčních teplot za dvě normálová období 1961-1990 a 1991-2020](img/cv04_graf_Srovnání_teplot_normaly.png)
 
 ## Postup práce ve cvičení ##
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím nový list a pojmenuji ho __NormalyTeploty__
