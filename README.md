@@ -264,9 +264,9 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
     - 2.1 Otevřu si Tabulky podnebí: buď [stáhnu pdf (50 MB) ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf), anebo si vezmu papírovou kopii.
     - 2.2 Pomocí mapy nebo Abecedního seznamu klimatických stanic na str. 16 najdu a vyberu 5-10 stanic s rozdílnými nadmořskými výškami. Ideálně v širším okolí své stanice a s co největším rozpětím výšek, např. od nížiny po hory, čili cca 300-1000 m.n.m.).
     - 2.3 Opíšu si jména vybraných stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__ na list __KlimatickyGradient__ (nadepíšu si sloupce: Stanice, Nadmořská výška (m n. m.), Průměrná roční teplota vzduchu (°C))
-- ![Tabulky podnebí - výběr stanice z abecedního seznamu klimatických stanic (od str. 16)](img/Tabulky_1.png)
+- ![Tabulky podnebí - výběr stanice z abecedního seznamu klimatických stanic (od str. 16)](img/Tabulky_1.PNG)
     - 2.4 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
-- ![Tabulky podnebí - dohledání průměrné roční teploty vzduchu pro konkrétní stanici](img/Tabulky_2.png)
+- ![Tabulky podnebí - dohledání průměrné roční teploty vzduchu pro konkrétní stanici](img/Tabulky_2.PNG)
     - 2.5 V MS Excel vytvořím __bodový (XY) graf__ z dat teploty (svislá osa) a nadmořské výšky (vodorovná osa). Pozor, ne spojnicový!
     - 2.6 Zobrazím spojnici trendu včetně rovnice (pravý klik na bod v grafu → "Přidat spojnici trendu", vpravo v nabídce zaškrtnu "Lineární" a dole "Zobrazit rovnici v grafu")
 - ![Klimatický gradient - přidat spojinici trendu](img/cv04_Klimaticky_gradient_spojnice_trendu.png)
