@@ -242,11 +242,13 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 # Cvičení 04 (týden od 26.10.2026, středa 28.10. je státní svátek) - Změna klimatu, získání dat budoucího vývoje klimatu z portálu www.climrisk.cz
 - Cílem cvičení je (pomocí dat z climrisk.cz) analyzovat předpokládaný budoucí vývoj klimatu pro moji stanici a porovnat jej s daty získanými z historických (1961-2020) měření ČHMÚ (stáhl jsem si je v prvním cvičení).
 - __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient a BudouciKlima, kde srovnám průměrné hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
+- ![Klimatický gradient 1901-1950](img/cv04_Klimaticky_gradient.png)
+- ![Budoucí klima: predikce vývoje průměrné teploty vzduchu a srážek do konce století, dle vybraného SSP scénáře](img/cv04_ClimRisk_budouci_klima.png)
 
 > 💡 __Tip:__ Data z ClimRisk chodí emailem a může to chvíli trvat. Žádost o data (bod 3) můžu odeslat hned na začátku cvičení a mezitím dělat gradient (bod 2).
   
 ## DŮLEŽITÉ ODKAZY ##
-- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
+- Tabulky podnebí s historickými daty z období 1901-1950: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
 - Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
 
 ## Postup práce ve cvičení ##
@@ -255,7 +257,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 
 2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
     - 2.1 Otevřu si Tabulky podnebí: buď [stáhnu pdf (50 MB) ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf), anebo si vezmu papírovou kopii.
-    - 2.2 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami (ideálně v okolí své stanice a s co největším rozpětím výšek, např. od nížiny po hory)
+    - 2.2 Pomocí mapy vyberu 5 stanic s rozdílnými nadmořskými výškami (ideálně v okolí své stanice a s co největším rozpětím výšek, např. od nížiny po hory, čili cca 300-1000 m.n.m.)
     - 2.3 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__ na list __KlimatickyGradient__ (sloupce: Stanice, Nadmořská výška (m n. m.), Teplota (°C))
     - 2.4 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
     - 2.5 V MS Excel vytvořím __bodový (XY) graf__ z dat teploty (svislá osa) a nadmořské výšky (vodorovná osa). Pozor, ne spojnicový!
@@ -263,10 +265,10 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
     - 2.7 __Jak číst rovnici__ y = ax + b: číslo __a__ je změna teploty (°C) na __1 metr__ výšky. Když ho vynásobím 100, dostanu __změnu teploty na 100 m__. Tím zjistím teplotní gradient v okolí své stanice.
     - 2.8 U grafu doplním veškeré náležitosti ([kompletní graf](EXCEL_MINIMUM.md#kompletní-graf))
 
-<!-- SCREENSHOT: img/cv04_spojnice_trendu.png | Formát spojnice trendu, Lineární, Zobrazit rovnici v grafu -->
+- ![Klimatický gradient - přidat spojinici trendu](img/cv04_Klimaticky_gradient_spojnice_trendu.png)
 
 > ✅ __Kontrolní bod (gradient):__
-> - Mám 10 bodů s rozdílnou nadmořskou výškou, na ose X je výška (m n. m.), na ose Y teplota (°C).
+> - Mám 5 bodů s rozdílnou nadmořskou výškou, na ose X je výška (m n. m.), na ose Y teplota (°C).
 > - Spojnice trendu klesá, číslo __a je záporné__, řádově −0,005 až −0,007. To znamená pokles o cca 0,5 až 0,7 °C na každých 100 m výšky.
 > - Pokud je a kladné nebo blízko nule, nejspíš mám prohozené osy nebo překlep v opsaných datech.
   
@@ -281,10 +283,13 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
     - 3.8 V nabídce Scénář vyberu některou z možností __SSP126, SSP245, SSP370 nebo SSP585__ (zapamatuju si, kterou, a uvedu ji v názvu grafu)
     - 3.9 V nabídce Klimatická charakteristika vyberu __Průměrná teplota vzduchu__ a __Srážkový úhrn__
     - 3.10 Do políčka email zadám svoji mailovou adresu a nechám si zaslat data
+- ![ClimRisk: co zaškrtnout](img/cv04_ClimRisk_web.png)
+- ![ClimRisk: takhle vypadá stažený Excel soubor s daty](img/cv04_ClimRisk_web.png)
   
 4. Práce se staženými daty a tvorba grafů
-    - 4.1 Data nakopíruju na list __BudouciKlima__
+    - 4.1 Data si nakopíruju na list __BudouciKlima__
     - 4.2 Pro roční hodnoty časových agregací scénářů budoucího vývoje klimatu vytvořím spojnicový graf průběhu včetně mediánu a všech percentilů
+- ![ClimRisk: finální grafy budoucího klimatu, neboli predikce vývoje průměrných teplot vzduchu a srážek do konce 21. století](img/cv04_ClimRisk_budouci_klima.png)
 
 > ✅ __Kontrolní bod (budoucí klima):__
 > - V grafu vidím pro každé období medián a pásmo percentilů, medián leží mezi nejnižším a nejvyšším percentilem.
