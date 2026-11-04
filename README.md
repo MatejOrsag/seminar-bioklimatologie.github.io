@@ -291,7 +291,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
     - 3.9 V nabídce Klimatická charakteristika vyberu __Průměrná teplota vzduchu__ a __Srážkový úhrn__
     - 3.10 Do políčka email zadám svoji mailovou adresu a nechám si zaslat data
 - ![ClimRisk: co zaškrtnout](img/cv04_ClimRisk_web.png)
-- ![ClimRisk: takhle vypadá stažený Excel soubor s daty](img/cv04_ClimRisk_web.png)
+- ![ClimRisk: takhle vypadá stažený Excel soubor s daty](img/cv04_ClimRisk_stažený_Excel.png)
   
 4. Práce se staženými daty a tvorba grafů
     - 4.1 Data si nakopíruju na list __BudouciKlima__
