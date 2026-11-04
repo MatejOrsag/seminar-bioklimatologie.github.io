@@ -241,7 +241,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 
 # Cvičení 04 (týden od 26.10.2026, středa 28.10. je státní svátek) - Změna klimatu, získání dat budoucího vývoje klimatu z portálu www.climrisk.cz
 - Cílem cvičení je (pomocí dat z climrisk.cz) analyzovat předpokládaný budoucí vývoj klimatu pro moji stanici a porovnat jej s daty získanými z historických (1961-2020) měření ČHMÚ (stáhl jsem si je v prvním cvičení).
-- __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient a BudouciKlima, kde srovnám průměrné hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
+- __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient a BudouciKlima__
 - ![Klimatický gradient 1901-1950](img/cv04_Klimaticky_gradient.png)
 - ![Budoucí klima: predikce vývoje průměrné teploty vzduchu a srážek do konce století, dle vybraného SSP scénáře](img/cv04_ClimRisk_budouci_klima.png)
 
