@@ -202,30 +202,34 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím nový list a pojmenuji ho __NormalyTeploty__
    
 2. Příprava dat a vytvoření kontingenční tabulky (teplota vzduchu). Obecný návod: [Excel minimum, bod 6](EXCEL_MINIMUM.md#6-kontingenční-tabulka-pivot)
-    - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991-2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
+    - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991-2020. Hodnoty pro první normál 1961-1990 (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál 1991-2020 (rok, měsíc, teploty) od sloupce __E__
     - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců), u obou normálů ho doplním
+- ![Jak si nachystat data pro kontingenční tabulku](img/cv03_Normály_Teploty.png)
     - 2.3 Nyní vložím kontingenční graf a kontingenční tabulku. Na kartě __Vložení__ vyberu __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
     - 2.4 V nabídce __Vybrat tabulku nebo oblast__ vyberu sloupce __A, B, C (data normálu 1961-1990)__ a potvrdím výběr
+- ![Vybírám oblast dat pro kontingenční tabulku](img/cv03_Normály_Teploty_kont_tab_1.png)
     - 2.5 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
     - 2.6 V nabídce __Pole kontingenčního grafu__ přetáhnu (drag and drop) položku __MONTH__ (nebo odpovídající název mého sloupce s měsícem) do boxu __Osa kategorie__
     - 2.7 Stejným způsobem přetáhnu položku __TAVG__ do boxu __Hodnoty__
-    - 2.8 U boxu __Hodnoty__ změním v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdím
-    - 2.9 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím, jestli dává smysl (jaké hodnoty jsou na osách X a Y, jestli vidím předpokládaný roční chod teploty atd.). Pokud je vše OK, samotný graf můžu smazat.
+- ![Nastavuju kontingenční tabulku](img/cv03_Normály_Teploty_kont_tab_2.png)
+    - 2.8 U boxu __Hodnoty__ změním v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdím. Nechci totiž součet teplot, ale jejich průměr.
+- ![Změním součet za průměr](img/cv03_Normály_Teploty_kont_tab_3.png)
+    - 2.9 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím, jestli dává smysl (jaké hodnoty jsou na osách X a Y, jestli vidím předpokládaný roční chod teploty atd.). Pokud je vše OK, samotný graf můžu smazat. Byl jen pomocný.
     - 2.10 Hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu.
-    - 2.11 Postup tvorby kontingenční tabulky zopakuji pro druhé normálové období
-
-<!-- SCREENSHOT: img/cv03_kontingencni_pole.png | pole kontingenčního grafu, MONTH v Osa kategorie, TAVG v Hodnoty -->
-<!-- SCREENSHOT: img/cv03_vlozit_hodnoty.png | Vložit jinak, Hodnoty -->
+    - 2.11 Postup tvorby kontingenční tabulky zopakuji úplně stejně pro druhé normálové období 1991-2020
+    - 2.12 Spočítám si rozdíl v teplotách vzduchu pro každý měsíc. Vezmu hodnotu pro normál 1991-2020 a odečtu od ní hodnotu starého normálu 1961-1990.
+- ![Změním součet za průměr](img/cv03_Normály_Teploty_kont_tab_4.png)
 
 > ✅ __Kontrolní bod:__
 > - Každá z obou tabulek má __12 řádků__ (měsíce 1 až 12), bez řádku „(prázdné)“.
-> - Hodnoty jsou průměry ve °C: leden kolem nuly nebo pod nulou, červenec nejteplejší. __Když vidím stovky °C, mám Součet místo Průměru.__
-> - Normál 1991-2020 je ve většině měsíců teplejší než 1961-1990.
+> - Hodnoty jsou průměry ve °C: leden kolem nuly nebo pod nulou, červenec nejteplejší. __Když vidím stovky °C, mám Součet místo Průměru__ a zkontroloju si, zda jsem správně provedl bod 2.8
+> - Normál 1991-2020 je ve většině měsíců teplejší než normál 1961-1990.
 
 3. Vytvoření jednoho spojnicového grafu pro porovnání obou normálových období
     - 3.1 Po vytvoření obou tabulek pro období 1961-1990 a 1991-2020 zobrazím obě řady měsíčních průměrných teplot v jednom spojnicovém grafu
     - 3.2 Vyberu vstupní data a pomocí __Vložení → Spojnicový graf__ vložím graf, který dále upravím do podoby [kompletního grafu](EXCEL_MINIMUM.md#kompletní-graf)
     - 3.3 Přidám název, popisy os, zdroj vstupních dat, jednotky, upravím legendu tak, aby byla čitelná (v legendě „1961–1990“ a „1991–2020“, ne „Řada1“)
+- ![Změním součet za průměr](img/cv03_Normály_Teploty_kont_tab_5.png)
 
 ## Otázky k interpretaci dat a zamyšlení ##
 1. Jaké pozoruji rozdíly a změny mezi dvěma srovnávanými obdobími?
