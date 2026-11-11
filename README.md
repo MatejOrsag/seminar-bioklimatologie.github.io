@@ -335,7 +335,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 
 2. Vytvořím pomocný sloupec „Dekáda“
     - 2.1 Do buňky C1 napíšu nadpis __Dekáda__ a do buňky C2 vzorec:
-      - česká verze: `=CELÁ.ČÁST((A2-1)/10)*10+1`
+      - česká verze: `=CELÁ.ČÁST((A2-1)/10)*10+1` , nebo `=ROUNDDOWN(A2/10,0)*10+1`
       - anglická verze: `=INT((A2-1)/10)*10+1`
       
       Vzorec přiřadí každému roku začátek jeho dekády (1961 až 1970 → 1961, 1971 až 1980 → 1971, ... 2011 až 2020 → 2011).
