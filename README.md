@@ -349,6 +349,8 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
     - 3.3 U boxu Hodnoty změním v nabídce __Nastavení polí hodnot…__ funkci ze Součtu na __Průměr__ a potvrdím.
     - 3.4 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím, jestli dává smysl (jaké hodnoty jsou na osách X a Y, jestli vidím rozumné průměrné teploty jednotlivých dekád atd.).
     - 3.5 Hodnoty z vygenerované kontingenční tabulky (jen šest řádků pro dekády 1961 až 2011, bez řádku Celkový součet) označím, zkopíruju (CTRL+C) a pomocí pravý klik → __Vložit jen hodnoty__ je vložím na volné místo v listu __TeplotyDekadyTrendy__.
+  
+- ![Kontingenční tabulka a graf pro dekády](img/cv05_Dekady_1.png)
 
 > ✅ __Kontrolní bod:__ Tabulka má __6 řádků__. Průměry dekád jsou podobné ročnímu průměru teploty mé stanice (obvykle 5 až 11 °C). Když si dočasně přepnu Průměr na Počet, každá dekáda má __120 hodnot__ (10 let × 12 měsíců).
 
@@ -356,9 +358,12 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
     - 4.1 Vedle zkopírované tabulky (sloupce Dekáda a Průměrná teplota) vytvořím další sloupec s nadpisem __Změna (°C / dekáda)__
     - 4.2 Do řádku druhé dekády napíšu vzorec, který odečte teplotu předchozí dekády, např. `=B3-B2` (kde B2 a B3 jsou průměrné teploty dvou po sobě jdoucích dekád; písmena upravím podle toho, kam jsem tabulku vložil). Tím zjistím, o kolik °C se průměrná teplota zvýšila nebo snížila mezi dvěma dekádami.
     - 4.3 Zkopíruju vzorec dolů (viz bod 2.2). První dekáda změnu nemá (nemá s čím srovnat).
+- ![Kontingenční tabulka a graf pro dekády](img/cv05_Dekady_2_změna_za_dekádu.png)
 
-5. Vytvořím spojnicový graf s daty měsíčních teplot pro celé období 1961–2020, ve kterém budu pomocí filtru zobrazovat každou dekádu zvlášť
+5. Vytvořím spojnicový graf s daty měsíčních teplot pro celé období 1961–2020, ve kterém budu pomocí filtru zobrazovat každou dekádu zvlášť.
     - 5.1 Nejdříve si udělám prostor na graf: vložím nad první řádek cca 15 nových prázdných řádků (pravý klik na číslo 1 prvního řádku → __Vložit__, a zmáčknutím __F4__ akci zopakuju, až mám 15 řádků). Graf má být úplně nahoře a data (Rok, Teplota, atd.) až pod ním, protože se data při filtrování mění a graf by mi mizel. Doplním do grafu popisky os s jednotkami a legendu, ať je graf [kompletní](EXCEL_MINIMUM.md#kompletní-graf).
+- ![spojnicový graf s daty měsíčních teplot pro dekády](img/cv05_Dekady_3_trend.png)
+
     - 5.2 Přidám do grafu spojnici trendu: pravý klik na data v grafu → __Přidat spojnici trendu__. V nabídce vpravo vyberu __Lineární__ a dole zaškrtnu __Zobrazit rovnici v grafu__.
     - 5.3 V grafu se objeví rovnice trendu ve tvaru y = ax + b, kde číslo __a__ udává sklon, tedy průměrnou změnu teploty za jeden krok na ose X. Ze sklonu v dalším kroku spočítám trend změny teploty za vybrané období.
     - 5.4 Nejdřív si ale postupně vyfiltruju (zobrazím) každou dekádu zvlášť. Kliknu do sloupce __Rok__ a na kartě __Data__ zapnu __Filtr__. Kliknu na šipku filtru ve sloupci Rok → __Filtry čísel → Mezi__ a zadám „je větší nebo rovno 1961“ a „je menší nebo rovno 1970“.
