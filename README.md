@@ -402,7 +402,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 ## Postup práce ve cvičení ##
 1. Ve svém MS Excel souboru __PrijmeniJmeno_Bioklimatologie.xlsx__ vytvořím dva nové listy a pojmenuji je __NormalySrazky__ a __DnySnih3cm__
 
-2. Příprava dat a vytvoření kontingenční tabulky (srážky). Postup je stejný jako v Cvičení 03.
+2. Začneme přípravou dat a vytvoření kontingenční tabulky porovnání __srážkových úhrnů v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 a 1991-2020__. Postup s kontingenční tabulkou je stejný jako v Cvičení 03.
     - 2.1 Na nový list __NormalySrazky__ nakopíruji data z listu __Srazky__, vyberu pouze časové úseky 1961-1990 a 1991-2020. Hodnoty pro první normál (rok, měsíc, srážky) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, srážky) od sloupce __E__
     - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců), u obou normálů ho doplním (__ROK, MĚSÍC, SRA__)
     - 2.3 Nyní vložím kontingenční graf a kontingenční tabulku. Na kartě __Vložení__ vyberu __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
@@ -414,7 +414,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
     - 2.9 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím, jestli dává smysl (jaké hodnoty jsou na osách X a Y, jestli vidím předpokládaný roční chod srážek atd.). Pokud je vše OK, samotný graf můžu smazat.
     - 2.10 Hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu.
     - 2.11 Postup tvorby kontingenční tabulky zopakuji pro druhé normálové období
-
+  
 > ✅ __Kontrolní bod:__
 > - Každá tabulka má __12 řádků__.
 > - Průměrné měsíční úhrny jsou obvykle 20 až 120 mm (na horách i víc). __Když vidím tisíce mm, mám Součet místo Průměru.__
@@ -425,8 +425,10 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
     - 3.1 Po vytvoření obou tabulek pro období 1961-1990 a 1991-2020 zobrazím obě řady měsíčních úhrnů srážek v jednom společném sloupcovém grafu
     - 3.2 Vyberu vstupní data a pomocí __Vložení → Sloupcový graf__ vložím graf, který dále upravím do podoby [kompletního grafu](EXCEL_MINIMUM.md#kompletní-graf)
     - 3.3 Přidám název, popisy os, zdroj vstupních dat, jednotky (mm), upravím legendu tak, aby byla čitelná
+    - 
+- ![sloupcový graf pro porovnání obou normálových období](img/cv06_Srovnani_srazek.png)
   
-4. Stažení dat pro sněhovou pokrývku nad 3 cm z portálu ClimRisk
+4. __Stažení dat pro sněhovou pokrývku nad 3 cm z portálu ClimRisk__
     - 4.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
     - 4.2 Vyberu __Česká republika__
     - 4.3 V horním menu stránky vyberu položku __Stahování dat__ a vyplním formulář pro stažení hodnot
@@ -437,16 +439,18 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
     - 4.8 V nabídce Klimatická charakteristika vyberu __Počet dní se sněhovou pokrývkou nad 3 cm__
     - 4.9 Do políčka email zadám svoji mailovou adresu a nechám si zaslat data
        
-5. Zpracování dat sněhové pokrývky
+5. __Zpracování dat sněhové pokrývky__
     - 5.1 Na nový list __DnySnih3cm__ nakopíruji data stažená z portálu ClimRisk
     - 5.2 Data nakopíruju do sloupců vedle sebe, pojmenovaných podle jednotlivých normálů. Použiji pouze číslo měsíce a počet dní se sněhovou pokrývkou v daném měsíci a za celý rok, zbývající data z listu smažu.
-    - 5.3 Všechna stažená normálová období porovnám pomocí sloupcového grafu, kde pro každý měsíc mám čtyři sloupce (pro každé normálové období jeden). Roční hodnotu do grafu nedávám (je mnohem větší a měsíce by zanikly), uvedu ji v tabulce.
+    - 5.3 Všechna stažená normálová období (1995 (1981-2010), 2005 (1991-2020), 2035 (2021-2050), 2065 (2051-2080)) porovnám pomocí sloupcového grafu, kde pro každý měsíc mám čtyři sloupce (pro každé normálové období jeden).
 
 > ✅ __Kontrolní bod:__
 > - V letních měsících je počet dní se sněhem __0__ (na horách případně výjimky na okrajích sezóny).
 > - Počet dní v měsíci nikdy nepřesáhne počet dní v tom měsíci (31).
 > - Ve většině měsíců počet dní se sněhem do budoucna ubývá.
-      
+
+- ![sloupcový graf pro porovnání počtu dní se sněhovou pokrývkou nad 3 cm za období čtyř normálových období (1981 a 2080)](img/cv06_DnySnih3cm.png)
+
 ## Otázky k interpretaci dat ##
 1. Jaké pozoruji rozdíly ve srážkových úhrnech mezi dvěma historickými normály?
 2. Jak souvisí tyto změny s již posouzenými změnami teplot a změnami v zaznamenané a očekávané sněhové pokrývce?
@@ -459,7 +463,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 <summary> Cvičení 07 </summary>
 
 # Cvičení 07 (týden od 16.11.2026, úterý 17.11. je státní svátek) - Vlhkost vzduchu, výpar a srážkový gradient
-- Cílem cvičení je probrat vlhkostní charakteristiky vzduchu a výpar a ověřit srážkový gradient na vybraných stanicích
+- Cílem cvičení je probrat vlhkostní charakteristiky vzduchu a výpar a ověřit srážkový gradient (analogie klimatického gradientu) na vybraných stanicích. Můžu zrecyklovat část práce ze cvičení, kde vznikl klimatický gradient. Pokud mám už vybrány konkrétní stanice a jejich nadmořské výšky, pokračuji bodem 1.3
 - __Na konci cvičení mám MS Excel soubor s novým listem SrazkovyGradient s opsanými daty pro vybrané stanice a vykresleným grafem gradientu__
 
 ## DŮLEŽITÉ ODKAZY ##
@@ -467,12 +471,14 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 
 1. Popsání srážkového gradientu s pomocí Tabulek podnebí
     - 1.1 Otevřu si Tabulky podnebí, buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf), nebo si vezmu papírovou kopii
-    - 1.2 Vytvořím nový list __SrazkovyGradient__ a opíšu na něj jména stanic a nadmořské výšky 10 stanic z __Abecedního seznamu srážkoměrných stanic__ (téměř na konci tabulek, před tabulkou č. 52). Vyberu stanice s co největším rozpětím nadmořských výšek.
-    - 1.3 Nalistuji téměř na konci __Tabulku č. 52: Průměrný úhrn srážek (mm) za období 1901-1950__
-    - 1.4 Opíšu průměrné roční srážkové úhrny
+    - 1.2 Vytvořím nový list __SrazkovyGradient__ a opíšu na něj jména stanic a nadmořské výšky 10 stanic z __Abecedního seznamu srážkoměrných stanic__ (na začátku tabulek, str. 16, před tabulkou č. 1). Vyberu stanice s co největším rozpětím nadmořských výšek.
+    - 1.3 Nalistuji téměř na konec tabulek, str. 137, kde začíná tabulka č. 52) __Tabulku č. 52: Průměrný úhrn srážek (mm) za období 1901-1950__
+    - 1.4 Opíšu průměrné roční srážkové úhrny pro vybrané stanice
     - 1.5 V MS Excel vytvořím __bodový (XY) graf__: na ose X nadmořská výška (m n. m.), na ose Y srážky (mm)
     - 1.6 Zobrazím spojnici trendu včetně rovnice a s pomocí rovnice ověřím __srážkový gradient__ u své stanice. Číslo __a__ v rovnici y = ax + b je změna srážek (mm) na 1 m výšky, po vynásobení 100 dostanu změnu srážek na 100 m.
     - 1.7 U grafu doplním veškeré náležitosti ([kompletní graf](EXCEL_MINIMUM.md#kompletní-graf))
+
+- ![Srážkový gradient](img/cv07_Srazkový_gradient.png)
 
 > ✅ __Kontrolní bod:__
 > - Mám 10 bodů, na ose X výška, na ose Y srážky.
