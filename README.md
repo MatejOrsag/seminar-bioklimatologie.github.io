@@ -577,5 +577,5 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 # Cvičení 11 (týden od 14.12.2026) - Kontrola seminárních prací a zápočty
 - Kdo má všechno hotové (viz [Co musí obsahovat odevzdaný soubor](#co-musí-obsahovat-odevzdaný-soubor)) a nemá víc než dvě neomluvené absence, ten dostane zápočet a může jít ke zkoušce.
 
-![The End](semester.png)
+![The End](img/semester.png)
 </details>
