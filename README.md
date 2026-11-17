@@ -559,7 +559,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 </details>
   
 <details markdown="1">
-<summary> Cvičení 10 </summary>
+<summary> Cvičení 09 </summary>
 
 # Cvičení 9 - Oblaka (ne mraky)
 - Cílem cvičení je získat přehled o klasifikaci a druzích oblaků. 
