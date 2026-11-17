@@ -42,9 +42,6 @@ Jeden soubor __PrijmeniJmeno_Bioklimatologie.xlsx__ s těmito listy (každý gra
 | NormalySrazky | 06 | tabulka a graf dvou normálů |
 | DnySnih3cm | 06 | tabulka a graf 4 období |
 | SrazkovyGradient | 07 | tabulka 10 stanic + bodový graf s rovnicí | 
-<!--
-| SmerVetru | 08 | tabulka četností + větrná růžice | 
--->
 
 <!-- POZNÁMKA PRO VYUČUJÍCÍHO: doplnit termín a způsob odevzdání (email / IS / ...) -->
 
