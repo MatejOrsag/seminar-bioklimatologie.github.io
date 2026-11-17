@@ -489,9 +489,9 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 1. Proč je vztah srážek s výškou „rozházenější“ než u teploty?
 2. Co je to srážkový stín a dá se najít ve vybraných stanicích?
 
-</details>
+<!--</details>
  
-<!--<details markdown="1">
+<details markdown="1">
 <summary> Cvičení 08 </summary>
 
 # Cvičení 08 - Tlak a vítr
