@@ -577,15 +577,5 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 # Cvičení 11 (týden od 14.12.2026) - Kontrola seminárních prací a zápočty
 - Kdo má všechno hotové (viz [Co musí obsahovat odevzdaný soubor](#co-musí-obsahovat-odevzdaný-soubor)) a nemá víc než dvě neomluvené absence, ten dostane zápočet a může jít ke zkoušce.
 
-<!-- Obrázek přejmenuj na end_of_semester.png (bez mezer) a nahraj do repozitáře -->
-![The End](end_of_semester.png)
+![The End](semester.png)
 </details>
-
-<!--
-NÁVOD PRO VYUČUJÍCÍHO: JAK AKTIVOVAT SCREENSHOTY
-1. Screenshot: Win + Shift + S, uložit jako PNG s názvem uvedeným v komentáři SCREENSHOT
-2. Na GitHubu: Add file, Upload files, přetáhnout složku img, Commit changes
-3. Celý komentář SCREENSHOT nahradit řádkem:
-   ![popis](img/xxx.png)
-   nebo se zmenšením: <img src="img/xxx.png" width="600">
--->
