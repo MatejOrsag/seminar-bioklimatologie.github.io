@@ -42,14 +42,14 @@ Jeden soubor __PrijmeniJmeno_Bioklimatologie.xlsx__ s těmito listy (každý gra
 | NormalySrazky | 06 | tabulka a graf dvou normálů |
 | DnySnih3cm | 06 | tabulka a graf 4 období |
 | SrazkovyGradient | 07 | tabulka 10 stanic + bodový graf s rovnicí |
-| SmerVetru | 08 | tabulka četností + větrná růžice |
+<!--| SmerVetru | 08 | tabulka četností + větrná růžice |-->
 
 <!-- POZNÁMKA PRO VYUČUJÍCÍHO: doplnit termín a způsob odevzdání (email / IS / ...) -->
 
 <details markdown="1">
 <summary> Cvičení 01 </summary>
 
-# Cvičení 01 (týden od 05.10.2026) - Zadání seminární práce z klimatologie, získání dat
+# Cvičení 01 - Zadání seminární práce z klimatologie, získání dat
 
 - Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
 - __Na konci cvičení mám MS Excel soubor se dvěma listy (Teplota a Srazky) s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro moji vybranou stanici__
@@ -132,7 +132,7 @@ _Na Macu_ místo Poznámkového bloku použiju TextEdit (Formát → Převést n
 <details markdown="1">
 <summary> Cvičení 02 </summary>
   
-# Cvičení 02 (týden od 12.10.2026) - Radiace a teplota
+# Cvičení 02 - Radiace a teplota
 - Cílem cvičení je vysvětlit si základní terminologii k tématu [slunečního záření (=solární radiace)](https://is.muni.cz/do/rect/el/estud/pedf/ps14/fyz_geogr/web/pages/03-prvky.html), pochopit vztah radiace a teploty vzduchu a otestovat si možnosti získání dat z jiných zdrojů, než je ČHMÚ.
 - __Na konci cvičení mám MS Excel soubor s novým listem TeplotaRadiace, kde srovnám měsíční hodnoty solární radiace a teplot pro moji vybranou stanici__
 
@@ -193,7 +193,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 <details markdown="1">
 <summary> Cvičení 03 </summary>
 
-# Cvičení 03 (týden od 19.10.2026) - Srovnání průměrných měsíčních teplot za dvě normálová období
+# Cvičení 03 - Srovnání průměrných měsíčních teplot za dvě normálová období
 - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích.
 - __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnám průměrné teploty vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 a 1991-2020, včetně grafického zobrazení__
 - ![Srovnání průměrných měsíčních teplot za dvě normálová období 1961-1990 a 1991-2020](img/cv04_graf_Srovnání_teplot_normaly.png)
@@ -243,7 +243,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 <details markdown="1"> 
 <summary> Cvičení 04 </summary>
 
-# Cvičení 04 (týden od 26.10.2026, středa 28.10. je státní svátek) - Změna klimatu, získání dat budoucího vývoje klimatu z portálu www.climrisk.cz
+# Cvičení 04 - Změna klimatu, získání dat budoucího vývoje klimatu z portálu www.climrisk.cz
 - Cílem cvičení je (pomocí dat z climrisk.cz) analyzovat předpokládaný budoucí vývoj klimatu pro moji stanici a porovnat jej s daty získanými z historických (1961-2020) měření ČHMÚ (stáhl jsem si je v prvním cvičení).
 - __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient...__
 - ![Klimatický gradient 1901-1950](img/cv04_Klimaticky_gradient.png)
@@ -321,7 +321,7 @@ Na listu TeplotaRadiace si nechám časový rozsah od února 2004 do prosince 20
 <details markdown="1">
 <summary> Cvičení 05 </summary>
 
-# Cvičení 05 (týden od 2.11.2026) - Analýza měsíčních teplot vzduchu a jejich trendů po dekádách (1961–2020)
+# Cvičení 05 - Analýza měsíčních teplot vzduchu a jejich trendů po dekádách (1961–2020)
   
 - Cílem cvičení je zjistit, o kolik stupňů se změnila průměrná teplota mezi jednotlivými dekádami v letech 1961–2020, a vytvořit grafy, které ukážou trend uvnitř každé dekády.
 - __Na konci cvičení mám MS Excel soubor s novým listem TeplotyDekadyTrendy s tabulkou dekádních průměrů, rozdílů mezi dekádami a 6 grafy trendů (jeden pro každou dekádu)__
@@ -389,7 +389,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 <details markdown="1">
 <summary> Cvičení 06 </summary>
 
-# Cvičení 06 (týden od 9.11.2026) - Srážky
+# Cvičení 06 - Srážky
   
 - Cílem cvičení je porovnat srážkové úhrny ve dvou klimatických normálech a prověřit předpokládaný budoucí vývoj sněhové pokrývky pro moji stanici
 - __Na konci cvičení mám MS Excel soubor s novými listy NormalySrazky a DnySnih3cm, kde srovnám srážkové úhrny v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 a 1991-2020, včetně grafického zobrazení, a počet dní se sněhovou pokrývkou nad 3 cm v současném a budoucím klimatu__
@@ -462,7 +462,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 <details markdown="1">
 <summary> Cvičení 07 </summary>
 
-# Cvičení 07 (týden od 16.11.2026, úterý 17.11. je státní svátek) - Vlhkost vzduchu, výpar a srážkový gradient
+# Cvičení 07 - Vlhkost vzduchu, výpar a srážkový gradient
 - Cílem cvičení je probrat vlhkostní charakteristiky vzduchu a výpar a ověřit srážkový gradient (analogie klimatického gradientu) na vybraných stanicích. Můžu zrecyklovat část práce ze cvičení, kde vznikl klimatický gradient. Pokud mám už vybrány konkrétní stanice a jejich nadmořské výšky, pokračuji bodem 1.3
 - __Na konci cvičení mám MS Excel soubor s novým listem SrazkovyGradient s opsanými daty pro vybrané stanice a vykresleným grafem gradientu__
 
@@ -490,11 +490,11 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 2. Co je to srážkový stín a dá se najít ve vybraných stanicích?
 
 </details>
-  
-<details markdown="1">
+ 
+<!--<details markdown="1">
 <summary> Cvičení 08 </summary>
 
-# Cvičení 08 (týden od 23.11.2026) - Tlak a vítr
+# Cvičení 08 - Tlak a vítr
 - Cílem cvičení je získat a zpracovat data směru větru pro moji vybranou stanici a vytvořit větrnou růžici
 - __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
 
@@ -547,9 +547,9 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 </details>
   
 <details markdown="1">
-<summary> Cvičení 09 </summary>
+<summary> Cvičení 08 </summary>
 
-# Cvičení 09 (týden od 30.11.2026) - Test nanečisto, opakování a doplnění znalostí z předcházejících cvičení
+# Cvičení 08 - Test nanečisto, opakování a doplnění znalostí z předcházejících cvičení
 
 # Odkazy pro zvídavé #
 - Infografiky k dopadům klimatické změny v ČR: [www.klimatickazmena.cz](https://www.klimatickazmena.cz/infografiky/)
@@ -561,7 +561,7 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 <details markdown="1">
 <summary> Cvičení 10 </summary>
 
-# Cvičení 10 (týden od 07.12.2026) - Oblaka (ne mraky)
+# Cvičení 9 - Oblaka (ne mraky)
 - Cílem cvičení je získat přehled o klasifikaci a druzích oblaků. 
 
 # Odkazy pro zvídavé #
@@ -572,9 +572,9 @@ Dekády počítám jako __1961–1970, 1971–1980, 1981–1990, 1991–2000, 20
 </details>
   
 <details markdown="1">
-<summary> Cvičení 11 </summary>
+<summary> Cvičení 10 </summary>
 
-# Cvičení 11 (týden od 14.12.2026) - Kontrola seminárních prací a zápočty
+# Cvičení 11 - Kontrola seminárních prací a zápočty
 - Kdo má všechno hotové (viz [Co musí obsahovat odevzdaný soubor](#co-musí-obsahovat-odevzdaný-soubor)) a nemá víc než dvě neomluvené absence, ten dostane zápočet a může jít ke zkoušce.
 
 ![The End](img/semester.png)
